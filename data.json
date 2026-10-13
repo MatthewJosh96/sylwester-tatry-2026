@@ -868,10 +868,6 @@
     {
      "level": "bad",
      "text": "Sprzeczne źródła – wyszukiwarka właściciela (Hotres) nie pokazała domu Folk w terminie, Airbnb pokazuje wolne."
-    },
-    {
-     "level": "warn",
-     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
     }
    ],
    "merged_from": [

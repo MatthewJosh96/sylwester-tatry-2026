@@ -60,9 +60,13 @@
      "url": "https://www.nocowanie.pl/rezerwuj/1491952-willa-popielica-zakopane/"
     }
    ],
-   "phones": [],
+   "phones": [
+    "+48 18 201 21 21"
+   ],
    "website": null,
-   "emails": [],
+   "emails": [
+    "halka.zakopane@gmail.com"
+   ],
    "flags": []
   },
   {
@@ -92,9 +96,13 @@
      "url": "https://www.airbnb.pl/rooms/6616059?check_in=2026-12-30&check_out=2027-01-06&adults=10"
     }
    ],
-   "phones": [],
-   "website": null,
-   "emails": [],
+   "phones": [
+    "+48 792 094 884"
+   ],
+   "website": "https://villa9a.pl/",
+   "emails": [
+    "kontakt@villa9a.pl"
+   ],
    "flags": []
   },
   {
@@ -124,7 +132,9 @@
      "url": "https://www.airbnb.pl/rooms/1643627718313305623?check_in=2026-12-30&check_out=2027-01-06&adults=10"
     }
    ],
-   "phones": [],
+   "phones": [
+    "+48 798 553 326"
+   ],
    "website": null,
    "emails": [],
    "flags": []
@@ -165,7 +175,10 @@
      "url": "https://www.holidu.pl/d/46067116"
     }
    ],
-   "phones": [],
+   "phones": [
+    "+48 660 518 330",
+    "+48 606 488 120"
+   ],
    "website": null,
    "emails": [],
    "flags": []
@@ -201,9 +214,13 @@
      "url": "https://www.holidu.pl/d/21008312"
     }
    ],
-   "phones": [],
-   "website": null,
-   "emails": [],
+   "phones": [
+    "+48 506 344 762"
+   ],
+   "website": "https://willazbikowka.pl/",
+   "emails": [
+    "biuro@willazbikowka.pl"
+   ],
    "flags": []
   },
   {
@@ -270,7 +287,9 @@
      "url": "https://www.airbnb.pl/rooms/1723731619671860566?check_in=2026-12-30&check_out=2027-01-06&adults=10"
     }
    ],
-   "phones": [],
+   "phones": [
+    "+48 572 591 828"
+   ],
    "website": null,
    "emails": [],
    "flags": []
@@ -302,9 +321,13 @@
      "url": "https://www.hometogo.pl/rental/9e835eac3c386364750ae20bfccf9f0c"
     }
    ],
-   "phones": [],
-   "website": null,
-   "emails": [],
+   "phones": [
+    "+48 508 349 035"
+   ],
+   "website": "https://willauroczysko.pl/",
+   "emails": [
+    "luke_kuzma@outlook.com"
+   ],
    "flags": [
     {
      "level": "warn",
@@ -348,7 +371,9 @@
      "url": "https://www.holidu.pl/d/57913179"
     }
    ],
-   "phones": [],
+   "phones": [
+    "+48 885 437 062"
+   ],
    "website": null,
    "emails": [],
    "flags": [
@@ -385,7 +410,9 @@
      "url": "https://www.airbnb.pl/rooms/51499047?check_in=2026-12-30&check_out=2027-01-06&adults=10"
     }
    ],
-   "phones": [],
+   "phones": [
+    "+48 603 818 820"
+   ],
    "website": null,
    "emails": [],
    "flags": []
@@ -486,7 +513,9 @@
      "url": "https://www.airbnb.pl/rooms/1102863251341653712?check_in=2026-12-30&check_out=2027-01-06&adults=10"
     }
    ],
-   "phones": [],
+   "phones": [
+    "+48 504 026 252"
+   ],
    "website": null,
    "emails": [],
    "flags": []
@@ -527,9 +556,13 @@
      "url": "https://www.hometogo.pl/rental/zbfc68b423593aec7"
     }
    ],
-   "phones": [],
-   "website": null,
-   "emails": [],
+   "phones": [
+    "+48 798 553 326"
+   ],
+   "website": "https://golden.villas/",
+   "emails": [
+    "info@golden.apartments"
+   ],
    "flags": []
   },
   {
@@ -600,9 +633,13 @@
      "url": "https://www.airbnb.pl/rooms/1397719199617289507?check_in=2026-12-30&check_out=2027-01-06&adults=10"
     }
    ],
-   "phones": [],
-   "website": null,
-   "emails": [],
+   "phones": [
+    "+48 798 553 326"
+   ],
+   "website": "https://golden.villas/",
+   "emails": [
+    "info@golden.villas"
+   ],
    "flags": []
   },
   {
@@ -732,9 +769,14 @@
      "url": "https://zakopanedomki.com/wioska-jagny-dom.html"
     }
    ],
-   "phones": [],
-   "website": null,
-   "emails": [],
+   "phones": [
+    "+48 790 336 333",
+    "+48 501 147 767"
+   ],
+   "website": "https://wioskajagny.pl/",
+   "emails": [
+    "kontakt@wioskajagny.pl"
+   ],
    "flags": []
   },
   {

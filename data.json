@@ -7225,6 +7225,10 @@
     {
      "label": "Strona obiektu",
      "url": "https://www.osadamaruszyna.pl/sylwester-w-gorach"
+    },
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/osada-maruszyna.pl.html?checkin=2026-12-30&checkout=2027-01-06&group_adults=10&no_rooms=1"
     }
    ],
    "phones": [
@@ -7234,7 +7238,12 @@
    "emails": [
     "kontakt@osadamaruszyna.pl"
    ],
-   "flags": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Regulamin: zakaz głośnych imprez – zapytaj, czy Sylwester w grupie jest OK."
+    }
+   ],
    "round": 3,
    "via": "Mapy Google",
    "rating": "4,9/5 · 276 opinii",
@@ -7304,10 +7313,6 @@
     {
      "label": "Mapy Google",
      "url": "https://maps.google.com/?cid=17777950789490738599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
-    },
-    {
-     "label": "Strona obiektu",
-     "url": "https://domkizakopane.eu/"
     }
    ],
    "phones": [
@@ -7316,6 +7321,10 @@
    "website": "http://www.domkizakopane.eu/",
    "emails": [],
    "flags": [
+    {
+     "level": "warn",
+     "text": "Dotyczy wyłącznie domku z 5 sypialniami – operator ma też domek z 4 sypialniami dla 10 osób."
+    },
     {
      "level": "warn",
      "text": "Limit dokładnie 10 osób – bez zapasu."
@@ -7512,7 +7521,7 @@
   },
   {
    "id": "H217",
-   "name": "LK Forest Villa",
+   "name": "LK Forest Villa – dom Modrzew",
    "location": "Łapsze Niżne",
    "country": "PL",
    "km": 23.0,
@@ -7529,10 +7538,6 @@
     {
      "label": "Mapy Google",
      "url": "https://maps.google.com/?cid=4249324945904463460&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
-    },
-    {
-     "label": "Strona obiektu",
-     "url": "https://www.lkresorts.pl/lk-forest-villa"
     }
    ],
    "phones": [
@@ -7553,9 +7558,9 @@
    "via": "Mapy Google",
    "rating": "4,9/5 · 58 opinii",
    "highlights": [
-    "basen",
     "jacuzzi",
-    "sauna"
+    "sauna",
+    "grota solna"
    ]
   },
   {
@@ -7609,10 +7614,6 @@
     {
      "label": "Mapy Google",
      "url": "https://maps.google.com/?cid=17679773727117964852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
-    },
-    {
-     "label": "Strona obiektu",
-     "url": "https://domkiukingkongazakopane.pl/"
     }
    ],
    "phones": [
@@ -7701,10 +7702,6 @@
     {
      "label": "Mapy Google",
      "url": "https://maps.google.com/?cid=12767805940947849932&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
-    },
-    {
-     "label": "Strona obiektu",
-     "url": "https://villaswiss.pl/"
     }
    ],
    "phones": [

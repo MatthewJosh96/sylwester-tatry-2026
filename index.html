@@ -179,7 +179,6 @@
 
   // Notatki i znaczniki „zadzwoniono” żyją tylko w localStorage tej przeglądarki; strona jest statyczna i nic nie wysyła.
   const STORE_KEY = 'sylwester-tatry-2026:notatki:v1';
-  let canRead = true;
   let notes = Object.create(null);
   const dirty = new Set();  // domy ze zmianami, których nie udało się zapisać (pełna albo zablokowana pamięć)
   const str = (v) => typeof v === 'string' ? v : null;
@@ -197,17 +196,20 @@
   }
   function readStore() {
     let raw;
-    try { raw = localStorage.getItem(STORE_KEY); } catch { canRead = false; return null; }
+    try { raw = localStorage.getItem(STORE_KEY); } catch { return null; }
     if (!raw) return Object.create(null);
     try { return cleanStore(JSON.parse(raw)); } catch { return Object.create(null); }
   }
   function saveEntry(h, patch) {
     // świeży odczyt, żeby druga otwarta karta nie nadpisała notatek zapisanych w niej do innych domów
-    const cur = (canRead && readStore()) || notes;
-    if (cur !== notes) dirty.forEach(id => { if (notes[id]) cur[id] = notes[id]; else delete cur[id]; });
+    const fresh = readStore();
+    const cur = fresh || notes;
+    if (fresh) dirty.forEach(id => { if (notes[id]) cur[id] = notes[id]; else delete cur[id]; });
     const e = Object.assign({}, cur[h.id], patch, { name: h.name, updated: new Date().toISOString() });
     if (!e.called && !String(e.note || '').trim()) delete cur[h.id]; else cur[h.id] = e;
     notes = cur;
+    // bez udanego odczytu nie nadpisujemy magazynu niepełnym stanem z pamięci tej karty
+    if (!fresh) { dirty.add(h.id); return false; }
     try { localStorage.setItem(STORE_KEY, JSON.stringify(cur)); dirty.clear(); return true; } catch { dirty.add(h.id); return false; }
   }
   const fmtTime = (iso) => { if (typeof iso !== 'string') return ''; const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleString('pl-PL', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }); };

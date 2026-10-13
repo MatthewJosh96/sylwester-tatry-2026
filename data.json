@@ -1,6 +1,6 @@
 {
  "generated": "13.10.2026",
- "portals": 14,
+ "portals": 20,
  "houses": [
   {
    "id": "H001",
@@ -333,6 +333,9 @@
      "level": "warn",
      "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
     }
+   ],
+   "highlights": [
+    "sauna"
    ]
   },
   {
@@ -464,13 +467,18 @@
    "guests": 14,
    "status": "wolne",
    "price": {
-    "main": 42320,
-    "main_src": "airbnb.pl",
+    "main": 38188,
+    "main_src": "booking.com",
     "reliable": true,
     "all": [
      {
       "src": "airbnb.pl",
       "pln": 42320,
+      "reliable": true
+     },
+     {
+      "src": "booking.com",
+      "pln": 38188,
       "reliable": true
      }
     ]
@@ -479,12 +487,20 @@
     {
      "label": "Airbnb",
      "url": "https://www.airbnb.pl/rooms/1772402091412402717?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/willa-przy-bystrym-potoku.pl.html?checkin=2026-12-30&checkout=2027-01-06&group_adults=10&no_rooms=1"
     }
    ],
    "phones": [],
    "website": null,
    "emails": [],
-   "flags": []
+   "flags": [],
+   "highlights": [
+    "sauna",
+    "balia"
+   ]
   },
   {
    "id": "H013",
@@ -1847,11 +1863,19 @@
     {
      "label": "Slowhop",
      "url": "https://slowhop.com/pl/miejsca/1930-chatta-huba.html"
+    },
+    {
+     "label": "Noclegi.pl",
+     "url": "https://noclegi.pl/domy-do-wynajecia-huba-czorsztyn?adults=10&checkin=2026-12-30&checkout=2027-01-06&children=0&rooms=1"
     }
    ],
-   "phones": [],
+   "phones": [
+    "+48 666 969 396"
+   ],
    "website": null,
-   "emails": [],
+   "emails": [
+    "hsczubek@gmail.com"
+   ],
    "flags": [
     {
      "level": "warn",
@@ -1861,6 +1885,11 @@
      "level": "warn",
      "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
     }
+   ],
+   "rating": "9,8/10 · 26 opinii",
+   "highlights": [
+    "kominek",
+    "widok na Jezioro Czorsztyńskie"
    ]
   },
   {
@@ -3157,10 +3186,16 @@
    "guests": null,
    "status": "wolne",
    "price": {
-    "main": null,
-    "main_src": null,
-    "reliable": false,
-    "all": []
+    "main": 77531,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 77531,
+      "reliable": true
+     }
+    ]
    },
    "links": [
     {
@@ -3171,7 +3206,12 @@
    "phones": [],
    "website": null,
    "emails": [],
-   "flags": []
+   "flags": [],
+   "highlights": [
+    "prywatna sauna",
+    "jacuzzi",
+    "basen"
+   ]
   },
   {
    "id": "H089",
@@ -3411,6 +3451,11 @@
       "src": "airbnb.pl",
       "pln": 39555,
       "reliable": true
+     },
+     {
+      "src": "hometogo.sk",
+      "pln": 43147,
+      "reliable": false
      }
     ]
    },
@@ -3422,12 +3467,20 @@
     {
      "label": "Airbnb",
      "url": "https://www.airbnb.pl/rooms/660795445858740480?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "HomeToGo",
+     "url": "https://www.hometogo.sk/rental/31ee14a530263c4ef7cdd209d8b58164?arrival=2026-12-30&duration=7&adults=10"
     }
    ],
    "phones": [],
    "website": null,
    "emails": [],
-   "flags": []
+   "flags": [],
+   "rating": "4,9/5 · 13 opinii",
+   "highlights": [
+    "sauna"
+   ]
   },
   {
    "id": "H098",
@@ -3685,7 +3738,8 @@
    "phones": [],
    "website": null,
    "emails": [],
-   "flags": []
+   "flags": [],
+   "rating": "8,6/10 · 6 opinii"
   },
   {
    "id": "H107",
@@ -5225,6 +5279,2088 @@
      "level": "warn",
      "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
     }
+   ]
+  },
+  {
+   "id": "H162",
+   "name": "Prywatne Anamon Gaštanová (dom rodzinny)",
+   "location": "Kežmarok",
+   "country": "SK",
+   "km": 39.0,
+   "bedrooms": 7,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 29974,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 29974,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1724835510379118447?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [],
+   "round": 2,
+   "highlights": [
+    "ogród",
+    "blisko centrum Kežmarku i term"
+   ]
+  },
+  {
+   "id": "H163",
+   "name": "Willa z sauną i kominkiem (Oravský Podzámok)",
+   "location": "Oravský Podzámok",
+   "country": "SK",
+   "km": 43.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 18828,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 18828,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/15477211?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [],
+   "round": 2,
+   "rating": "4,77/5 · 13 opinii",
+   "highlights": [
+    "kominek",
+    "sauna",
+    "wolnostojący dom, taras"
+   ]
+  },
+  {
+   "id": "H164",
+   "name": "Apartament Prywatny Horec (Privát Horec)",
+   "location": "Malý Slavkov",
+   "country": "SK",
+   "km": 37.0,
+   "bedrooms": 6,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": 20357,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 20357,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/7036147?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [
+    "+421 907 291 189"
+   ],
+   "website": null,
+   "emails": [
+    "info@privathorec.sk"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Kilka apartamentów z osobnymi wejściami – potwierdź, że cena obejmuje cały dom (opis słowacki: „cena za apartmán”)."
+    }
+   ],
+   "round": 2,
+   "rating": "5,0/5 · 1 opinia",
+   "highlights": [
+    "ogród z placem zabaw",
+    "grill",
+    "Wysokie Tatry (Kežmarok/T. Lomnica blisko)"
+   ]
+  },
+  {
+   "id": "H165",
+   "name": "Chalet Oasis",
+   "location": "Huty",
+   "country": "SK",
+   "km": 29.0,
+   "bedrooms": 5,
+   "guests": 18,
+   "status": "wolne",
+   "price": {
+    "main": 23192,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 23192,
+      "reliable": true
+     },
+     {
+      "src": "hometogo.sk",
+      "pln": 22786,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/sk/chalet-oasis.pl.html?checkin=2026-12-30&checkout=2027-01-06&group_adults=10&no_rooms=1&group_children=0&selected_currency=PLN"
+    },
+    {
+     "label": "HomeToGo",
+     "url": "https://www.hometogo.sk/rental/07879a656d6c28328324c1e32058b854?arrival=2026-12-30&duration=7&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [],
+   "round": 2,
+   "rating": "10/10 · 6 opinii",
+   "highlights": [
+    "kominek",
+    "panoramiczne widoki"
+   ]
+  },
+  {
+   "id": "H166",
+   "name": "Penzión Borky",
+   "location": "Vitanová",
+   "country": "SK",
+   "km": 17.0,
+   "bedrooms": 5,
+   "guests": 16,
+   "status": "nieznana",
+   "price": {
+    "main": 12040,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 12040,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/penzion-borky-vitanova?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,4/10 · 18 opinii",
+   "highlights": [
+    "kominek"
+   ]
+  },
+  {
+   "id": "H167",
+   "name": "Apartmány Paľovci",
+   "location": "Zuberec",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 6,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 13674,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 13674,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/apartmany-palovci?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,7/10 · 32 opinie",
+   "highlights": [
+    "balia"
+   ]
+  },
+  {
+   "id": "H168",
+   "name": "Apartmánový dom Antónia",
+   "location": "Habovka",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 6493,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 6493,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/apartmanovy-dom-antonia?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,6/10 · 6 opinii"
+  },
+  {
+   "id": "H169",
+   "name": "Penzión u Laca",
+   "location": "Zuberec",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 10,
+   "guests": 23,
+   "status": "wolne",
+   "price": {
+    "main": 5590,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 5590,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/penzion-u-laca?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    },
+    {
+     "level": "warn",
+     "text": "Podejrzanie niska cena jak na Sylwestra – potwierdź u gospodarza."
+    },
+    {
+     "level": "warn",
+     "text": "Cennik za osobę – za cały pensjonat gospodarz może policzyć więcej."
+    }
+   ],
+   "round": 2,
+   "rating": "9,4/10 · 47 opinii",
+   "highlights": [
+    "kominek"
+   ]
+  },
+  {
+   "id": "H170",
+   "name": "Rekreačný dom Štechová",
+   "location": "Habovka",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 6,
+   "guests": 12,
+   "status": "wolne",
+   "price": {
+    "main": 4696,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 4696,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/rekreacny-dom-stechova?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    },
+    {
+     "level": "warn",
+     "text": "Podejrzanie niska cena jak na Sylwestra – potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,7/10 · 40 opinii"
+  },
+  {
+   "id": "H171",
+   "name": "Apartmány Habovka",
+   "location": "Habovka",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 6,
+   "guests": 24,
+   "status": "wolne",
+   "price": {
+    "main": 15072,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 15072,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/apartmany-habovka?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,8/10 · 25 opinii"
+  },
+  {
+   "id": "H172",
+   "name": "Chalupa Jana",
+   "location": "Habovka",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 7,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 8910,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 8910,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chalupa-jana-habovka?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,6/10 · 12 opinii"
+  },
+  {
+   "id": "H173",
+   "name": "Apartmány u Denyho",
+   "location": "Zuberec",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 5,
+   "guests": 13,
+   "status": "wolne",
+   "price": {
+    "main": 11158,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 11158,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/apartmany-u-denyho?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,9/10 · 38 opinii",
+   "highlights": [
+    "przy stoku"
+   ]
+  },
+  {
+   "id": "H174",
+   "name": "Apartmány Agneša Harmatová",
+   "location": "Zuberec",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 7,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 6140,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 6140,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/apartmany-agnesa-harmatova?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    },
+    {
+     "level": "warn",
+     "text": "Podejrzanie niska cena jak na Sylwestra – potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "10/10 · 8 opinii",
+   "highlights": [
+    "przy stoku"
+   ]
+  },
+  {
+   "id": "H175",
+   "name": "Apartmanový dom v Zuberci",
+   "location": "Zuberec",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 8,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 23908,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 23908,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/apartmanovy-dom-v-zuberci?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,1/10 · 2 opinie"
+  },
+  {
+   "id": "H176",
+   "name": "Chata Kovalčík pod Lánom",
+   "location": "Zuberec",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": 6880,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 6880,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-kovalcik-pod-lanom?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,8/10 · 31 opinii"
+  },
+  {
+   "id": "H177",
+   "name": "Apartmány Adriána Zuberec",
+   "location": "Zuberec",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 5,
+   "guests": 17,
+   "status": "nieznana",
+   "price": {
+    "main": 8729,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 8729,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/apartmany-adriana-zuberec?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,8/10 · 33 opinie",
+   "highlights": [
+    "jacuzzi"
+   ]
+  },
+  {
+   "id": "H178",
+   "name": "Ubytovanie PATTY",
+   "location": "Stará Lesná",
+   "country": "SK",
+   "km": 32.0,
+   "bedrooms": 7,
+   "guests": 18,
+   "status": "nieznana",
+   "price": {
+    "main": 7095,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 7095,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/ubytovanie-patty?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9/10 · 33 opinie"
+  },
+  {
+   "id": "H179",
+   "name": "Chata pri potoku",
+   "location": "Stará Lesná",
+   "country": "SK",
+   "km": 32.0,
+   "bedrooms": 6,
+   "guests": 20,
+   "status": "nieznana",
+   "price": {
+    "main": 13313,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 13313,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-pri-potoku-stara-lesna?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,9/10 · 12 opinii",
+   "highlights": [
+    "kominek"
+   ]
+  },
+  {
+   "id": "H180",
+   "name": "Apartmány Manor",
+   "location": "Stará Lesná",
+   "country": "SK",
+   "km": 32.0,
+   "bedrooms": 5,
+   "guests": 11,
+   "status": "nieznana",
+   "price": {
+    "main": 11404,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 11404,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/apartmany-manor?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2
+  },
+  {
+   "id": "H181",
+   "name": "Apartmány Terra",
+   "location": "Stará Lesná",
+   "country": "SK",
+   "km": 32.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 8603,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 8603,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/apartmany-terra?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,9/10 · 96 opinii"
+  },
+  {
+   "id": "H182",
+   "name": "Goralské chalupy u Veroniky",
+   "location": "Zálesie",
+   "country": "SK",
+   "km": 32.0,
+   "bedrooms": 8,
+   "guests": 24,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/goralske-chalupy-u-veroniky?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cennik: za noc: 220-320 EUR (za obiekt/jednostkę); portal nie wyliczył ceny na ten termin"
+    },
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    },
+    {
+     "level": "warn",
+     "text": "Dwie chałupy (większa ma 5 sypialni) – cennik 220–320 EUR za noc, potwierdź cenę za całość."
+    }
+   ],
+   "round": 2,
+   "rating": "8,4/10 · 9 opinii",
+   "highlights": [
+    "balia",
+    "kominek",
+    "basen"
+   ]
+  },
+  {
+   "id": "H183",
+   "name": "Chalupa Anna",
+   "location": "Lechnica",
+   "country": "SK",
+   "km": 35.0,
+   "bedrooms": 6,
+   "guests": 17,
+   "status": "wolne",
+   "price": {
+    "main": 6381,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 6381,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chalupa-anna-lechnica?from=2026-12-30&to=2027-01-06&adultsCount=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Dom z kilku jednostek – cały tylko przy rezerwacji wszystkich; cena portalu obejmuje wszystkie, potwierdź u gospodarza."
+    }
+   ],
+   "round": 2,
+   "rating": "9,3/10 · 16 opinii",
+   "highlights": [
+    "kominek"
+   ]
+  },
+  {
+   "id": "H184",
+   "name": "Villa Ďurčík",
+   "location": "Veľká Lomnica",
+   "country": "SK",
+   "km": 36.0,
+   "bedrooms": 10,
+   "guests": 29,
+   "status": "wolne",
+   "price": {
+    "main": 55322,
+    "main_src": "hometogo.sk",
+    "reliable": false,
+    "all": [
+     {
+      "src": "hometogo.sk",
+      "pln": 55322,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "HomeToGo",
+     "url": "https://www.hometogo.sk/rental/55115cda2346c78f2dbcc99e34ed0568?arrival=2026-12-30&duration=7&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora – orientacyjna."
+    }
+   ],
+   "round": 2,
+   "rating": "4,7/5 · 102 opinie",
+   "highlights": [
+    "blisko Tatr (Veľká Lomnica)"
+   ]
+  },
+  {
+   "id": "H185",
+   "name": "River Side Holiday Home near Besenova",
+   "location": "Ivachnová",
+   "country": "SK",
+   "km": 45.0,
+   "bedrooms": 6,
+   "guests": 20,
+   "status": "wolne",
+   "price": {
+    "main": 17876,
+    "main_src": "hometogo.sk",
+    "reliable": false,
+    "all": [
+     {
+      "src": "hometogo.sk",
+      "pln": 17876,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "HomeToGo",
+     "url": "https://www.hometogo.sk/rental/fc49c58fb24154f25b1c45531c61714e?arrival=2026-12-30&duration=7&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora – orientacyjna."
+    },
+    {
+     "level": "warn",
+     "text": "HomeToGo opisuje obiekt jako rezort – potwierdź, że to cały dom."
+    }
+   ],
+   "round": 2,
+   "rating": "4,0/5 · 7 opinii",
+   "highlights": [
+    "kominek",
+    "blisko term Bešeňová"
+   ]
+  },
+  {
+   "id": "H186",
+   "name": "Chata Huncwota",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 1.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 27623,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 27623,
+      "reliable": true
+     },
+     {
+      "src": "hometogo.sk",
+      "pln": 30693,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/domek-pod-strzecha.pl.html?checkin=2026-12-30&checkout=2027-01-06&group_adults=10&no_rooms=1"
+    },
+    {
+     "label": "HomeToGo",
+     "url": "https://www.hometogo.sk/rental/185b7a41ce7f78b2f60a02b9458a0767?arrival=2026-12-30&duration=7&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [],
+   "round": 2,
+   "rating": "9,1/10 · 53 opinie",
+   "highlights": [
+    "ogród z grillem"
+   ]
+  },
+  {
+   "id": "H187",
+   "name": "Nasza Chata (bania, kominek)",
+   "location": "Kacwin",
+   "country": "PL",
+   "km": 26.0,
+   "bedrooms": 5,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 13456,
+    "main_src": "hometogo.sk",
+    "reliable": false,
+    "all": [
+     {
+      "src": "hometogo.sk",
+      "pln": 13456,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "HomeToGo",
+     "url": "https://www.hometogo.sk/rental/zc57e4f5a9a0773d9?arrival=2026-12-30&duration=7&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora – orientacyjna."
+    },
+    {
+     "level": "warn",
+     "text": "Liczba sypialni tylko z nagłówka oferty – potwierdź układ spania."
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "bania (balia)",
+    "kominek",
+    "palenisko"
+   ]
+  },
+  {
+   "id": "H188",
+   "name": "Domki Góralskie Szwajnosówka (domek 14-os.)",
+   "location": "Witów",
+   "country": "PL",
+   "km": 10.0,
+   "bedrooms": 7,
+   "guests": 14,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Noclegi.pl",
+     "url": "https://noclegi.pl/domki-goralskie-szwajnosowka?adults=10&checkin=2026-12-30&checkout=2027-01-06&children=0&rooms=1"
+    }
+   ],
+   "phones": [
+    "+48 503 334 356"
+   ],
+   "website": null,
+   "emails": [
+    "szwajnosowka@gmail.com"
+   ],
+   "flags": [],
+   "round": 2,
+   "rating": "9,9/10 · 21 opinii",
+   "highlights": [
+    "blisko Term Chochołowskich i Witów Ski",
+    "widokowe tarasy"
+   ]
+  },
+  {
+   "id": "H189",
+   "name": "Osada HANKA Luxury Witów (domek 16-os.)",
+   "location": "Witów",
+   "country": "PL",
+   "km": 10.0,
+   "bedrooms": 5,
+   "guests": 16,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Noclegi.pl",
+     "url": "https://noclegi.pl/osada-hanka-luxury-witow?adults=10&checkin=2026-12-30&checkout=2027-01-06&children=0&rooms=1"
+    }
+   ],
+   "phones": [
+    "+48 880 721 681"
+   ],
+   "website": "https://willahankawitow.pl",
+   "emails": [
+    "kontakt@willahankawitow.pl"
+   ],
+   "flags": [],
+   "round": 2,
+   "highlights": [
+    "prywatne dojście do rzeki Czarny Dunajec",
+    "blisko Term Chochołowskich"
+   ]
+  },
+  {
+   "id": "H190",
+   "name": "Domki Osada Dzianisz (Osada N°54)",
+   "location": "Dzianisz 54",
+   "country": "PL",
+   "km": 7.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Noclegi.pl",
+     "url": "https://noclegi.pl/domki-osada-dzianisz-witow?adults=10&checkin=2026-12-30&checkout=2027-01-06&children=0&rooms=1"
+    }
+   ],
+   "phones": [
+    "+48 503 142 398"
+   ],
+   "website": null,
+   "emails": [
+    "aga75karol@op.pl"
+   ],
+   "flags": [],
+   "round": 2,
+   "rating": "9,7/10 · 3 opinie",
+   "highlights": [
+    "widok na góry",
+    "2 km do Witów Ski i Term Chochołowskich"
+   ]
+  },
+  {
+   "id": "H191",
+   "name": "Ziębowe domki (Cały dom 14-os.)",
+   "location": "Chochołów 246c",
+   "country": "PL",
+   "km": 13.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Noclegi.pl",
+     "url": "https://noclegi.pl/ziebowe-domki-zakopane?adults=10&checkin=2026-12-30&checkout=2027-01-06&children=0&rooms=1"
+    }
+   ],
+   "phones": [
+    "+48 882 914 098"
+   ],
+   "website": null,
+   "emails": [
+    "ziebowedomki@gmail.com"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Możliwe, że to ten sam obiekt co inny dom z Chochołowa na liście."
+    }
+   ],
+   "round": 2,
+   "rating": "10/10 · 4 opinie",
+   "highlights": [
+    "wanna z hydromasażem",
+    "ogród 1000 m²",
+    "blisko Term Chochołowskich"
+   ]
+  },
+  {
+   "id": "H192",
+   "name": "Domki z Jabłonki (domek 14-os. Deluxe)",
+   "location": "Jabłonka",
+   "country": "PL",
+   "km": 27.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Noclegi.pl",
+     "url": "https://noclegi.pl/domki-z-jablonki?adults=10&checkin=2026-12-30&checkout=2027-01-06&children=0&rooms=1"
+    }
+   ],
+   "phones": [
+    "+48 507 477 074"
+   ],
+   "website": null,
+   "emails": [
+    "domkizjablonki@gmail.com"
+   ],
+   "flags": [],
+   "round": 2,
+   "highlights": [
+    "jacuzzi zewnętrzne 6-os.",
+    "kominek panoramiczny",
+    "widok na Tatry i Babią Górę"
+   ]
+  },
+  {
+   "id": "H193",
+   "name": "Chata na brzysku pod Białką",
+   "location": "Leśnica",
+   "country": "PL",
+   "km": 33.0,
+   "bedrooms": 5,
+   "guests": 20,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "e-turysta",
+     "url": "https://e-turysta.pl/chata-na-brzysku-pod-bialka-bialka-tatrzanska-170049.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cennik: za noc wg cennika ogólnego (pobyt >3 dni, +50 PLN za każdą kolejną osobę); 7 nocy ≈ 4 200 PLN, stawka sylwestrowa niepotwierdzona"
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "sauna parowa",
+    "ogród z grillem",
+    "blisko Białki Tatrzańskiej"
+   ]
+  },
+  {
+   "id": "H194",
+   "name": "Anielski Wierch Dom na wyłączność (dom 12-os.)",
+   "location": "Grywałd",
+   "country": "PL",
+   "km": 35.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "e-turysta",
+     "url": "https://e-turysta.pl/anielski-wierch-dom-na-wylacznosc-grywald-186310.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cennik: cena: od 92 zł/os./noc (cennik ogólny), na termin nieznana"
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "sauna infrared i grota solna",
+    "kominek"
+   ]
+  },
+  {
+   "id": "H195",
+   "name": "Szymoszkowa Ski Residence",
+   "location": "Kościelisko",
+   "country": "PL",
+   "km": 5.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 44770,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 44770,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/szymaszkowa-ski-residence.pl.html?checkin=2026-12-30&checkout=2027-01-06&group_adults=10&no_rooms=1"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Limit dokładnie 10 osób – bez zapasu."
+    }
+   ],
+   "round": 2,
+   "rating": "9,5/10 · 14 opinii",
+   "highlights": [
+    "blisko stoku Szymoszkowa"
+   ]
+  },
+  {
+   "id": "H196",
+   "name": "Chalupa Roman Ždiar",
+   "location": "Ždiar",
+   "country": "SK",
+   "km": 24.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/chalupa-roman-zdiar"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cennik: za noc, cennik orientacyjny; Silvestr 28.12–2.1: min. 5 nocy, cena dohodou"
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "widok na Belianske Tatry",
+    "skibus do wyciągów",
+    "termy Vyšné Ružbachy"
+   ]
+  },
+  {
+   "id": "H197",
+   "name": "Chalet Nemešany Ždiar",
+   "location": "Ždiar",
+   "country": "SK",
+   "km": 24.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/chalet-nemesany-zdiar"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [],
+   "round": 2,
+   "highlights": [
+    "kominek",
+    "5 łazienek"
+   ]
+  },
+  {
+   "id": "H198",
+   "name": "Chata Blava",
+   "location": "Nižná na Orave",
+   "country": "SK",
+   "km": 31.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "nieznana",
+   "price": {
+    "main": 8187,
+    "main_src": "travelking.sk",
+    "reliable": false,
+    "all": [
+     {
+      "src": "travelking.sk",
+      "pln": 8187,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/stefan-cuchor"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena z cennika travelking.sk – orientacyjna, stawkę sylwestrową potwierdź."
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "sauna",
+    "kominek",
+    "basen"
+   ]
+  },
+  {
+   "id": "H199",
+   "name": "Oravienka Biely Potok",
+   "location": "Oravský Biely Potok",
+   "country": "SK",
+   "km": 29.0,
+   "bedrooms": 6,
+   "guests": 16,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/oravienka-biely-potok"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cennik: za noc; Silvestr 26.12–3.1: CENA DOHODOU (min. 4 os., 3 noce)"
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "blisko Zuberec/Roháče",
+    "termy Oravice"
+   ]
+  },
+  {
+   "id": "H200",
+   "name": "Chata pri potoku Habovka (Rekreačný dom Jandura)",
+   "location": "Zuberec / Habovka",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 6,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/rekreacny-dom-jandura-zuberec"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [],
+   "round": 2,
+   "highlights": [
+    "kominek",
+    "termy Meander Park Oravice"
+   ]
+  },
+  {
+   "id": "H201",
+   "name": "Chata Velké Borové",
+   "location": "Veľké Borové",
+   "country": "SK",
+   "km": 34.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/chata-velke-borove"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [],
+   "round": 2,
+   "highlights": [
+    "wyciąg Huty 5 km",
+    "termy Kalameny 11 km"
+   ]
+  },
+  {
+   "id": "H202",
+   "name": "GABRIELA",
+   "location": "Stará Lesná",
+   "country": "SK",
+   "km": 32.0,
+   "bedrooms": 5,
+   "guests": 17,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/gabriela"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cennik: za noc; Silvester min. 5 nocy, cena nie podana"
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "kominek",
+    "widok na Tatry"
+   ]
+  },
+  {
+   "id": "H203",
+   "name": "AC La Chata Dolný Smokovec",
+   "location": "Dolný Smokovec",
+   "country": "SK",
+   "km": 29.0,
+   "bedrooms": 7,
+   "guests": 18,
+   "status": "nieznana",
+   "price": {
+    "main": 29378,
+    "main_src": "travelking.sk",
+    "reliable": false,
+    "all": [
+     {
+      "src": "travelking.sk",
+      "pln": 29378,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/ac-la-chata-dolny-smokovec"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena z cennika travelking.sk – orientacyjna, stawkę sylwestrową potwierdź."
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "sauna",
+    "wirówka (vířivka)",
+    "kominek"
+   ]
+  },
+  {
+   "id": "H204",
+   "name": "Zelený Dom Vysoké Tatry",
+   "location": "Stará Lesná",
+   "country": "SK",
+   "km": 32.0,
+   "bedrooms": 6,
+   "guests": 18,
+   "status": "nieznana",
+   "price": {
+    "main": 9314,
+    "main_src": "travelking.sk",
+    "reliable": false,
+    "all": [
+     {
+      "src": "travelking.sk",
+      "pln": 9314,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/zeleny-dom-vysoke-tatry"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena z cennika travelking.sk – orientacyjna, stawkę sylwestrową potwierdź."
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "ogród",
+    "blisko Tatr"
+   ]
+  },
+  {
+   "id": "H205",
+   "name": "Chata Sofia",
+   "location": "Oravice",
+   "country": "SK",
+   "km": 15.0,
+   "bedrooms": 8,
+   "guests": 18,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/chata-sofia"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [],
+   "round": 2,
+   "highlights": [
+    "kominek",
+    "termy/Aquapark Oravice",
+    "wyciąg Oravice"
+   ]
+  },
+  {
+   "id": "H206",
+   "name": "Chata Ola Oravice",
+   "location": "Oravice",
+   "country": "SK",
+   "km": 15.0,
+   "bedrooms": 5,
+   "guests": 18,
+   "status": "nieznana",
+   "price": {
+    "main": 6777,
+    "main_src": "travelking.sk",
+    "reliable": false,
+    "all": [
+     {
+      "src": "travelking.sk",
+      "pln": 6777,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/chata-ola-oravice"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena z cennika travelking.sk – orientacyjna, stawkę sylwestrową potwierdź."
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "kominek",
+    "termy Oravice"
+   ]
+  },
+  {
+   "id": "H207",
+   "name": "Ubytovanie Tatry MKS Štrba",
+   "location": "Štrba",
+   "country": "SK",
+   "km": 29.0,
+   "bedrooms": 7,
+   "guests": 19,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/maria-kicakova-tatry-mks"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [],
+   "round": 2,
+   "highlights": [
+    "widok na panoramę Tatr"
+   ]
+  },
+  {
+   "id": "H208",
+   "name": "Chata Ľubica 128",
+   "location": "Tvrdošín",
+   "country": "SK",
+   "km": 29.0,
+   "bedrooms": 7,
+   "guests": 20,
+   "status": "nieznana",
+   "price": {
+    "main": 14749,
+    "main_src": "travelking.sk",
+    "reliable": false,
+    "all": [
+     {
+      "src": "travelking.sk",
+      "pln": 14749,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/chata-lubica-128"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena z cennika travelking.sk – orientacyjna, stawkę sylwestrową potwierdź."
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "widok na przyrodę",
+    "blisko term Oravice"
+   ]
+  },
+  {
+   "id": "H209",
+   "name": "Chata Soemi Oravice",
+   "location": "Oravice",
+   "country": "SK",
+   "km": 15.0,
+   "bedrooms": 5,
+   "guests": 23,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/chata-soemi-oravice"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cennik: za noc; w opisie 'Silvester 450 EUR objekt/noc', 'Vianoce 350'; pozostałe noce wg cennika zimowego (nieodczytany)"
+    },
+    {
+     "level": "warn",
+     "text": "Piąta sypialnia to studio – potwierdź układ spania."
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "termy Oravice",
+    "wyciąg w pobliżu"
+   ]
+  },
+  {
+   "id": "H210",
+   "name": "Villa Cassandra",
+   "location": "Veľká Lomnica",
+   "country": "SK",
+   "km": 36.0,
+   "bedrooms": 11,
+   "guests": 27,
+   "status": "nieznana",
+   "price": {
+    "main": 43344,
+    "main_src": "travelking.sk",
+    "reliable": false,
+    "all": [
+     {
+      "src": "travelking.sk",
+      "pln": 43344,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/villa-cassandra"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena z cennika travelking.sk – orientacyjna, stawkę sylwestrową potwierdź."
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "blisko Lomnický štít",
+    "termy Vrbov",
+    "Aquacity Poprad"
+   ]
+  },
+  {
+   "id": "H211",
+   "name": "Villa Happy",
+   "location": "Veľká Lomnica",
+   "country": "SK",
+   "km": 36.0,
+   "bedrooms": 8,
+   "guests": 31,
+   "status": "nieznana",
+   "price": {
+    "main": 17548,
+    "main_src": "travelking.sk",
+    "reliable": false,
+    "all": [
+     {
+      "src": "travelking.sk",
+      "pln": 17548,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/villa-happy-velka-lomnica"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena z cennika travelking.sk – orientacyjna, stawkę sylwestrową potwierdź."
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "widok na Tatry",
+    "termy w pobliżu"
+   ]
+  },
+  {
+   "id": "H212",
+   "name": "Chaty Tatra – Menší chata",
+   "location": "Tatranská Štrba",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 6,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": 12040,
+    "main_src": "travelking.sk",
+    "reliable": false,
+    "all": [
+     {
+      "src": "travelking.sk",
+      "pln": 12040,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/chaty-tatra"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena z cennika travelking.sk – orientacyjna, stawkę sylwestrową potwierdź."
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "sauna",
+    "kominek"
+   ]
+  },
+  {
+   "id": "H213",
+   "name": "Chata Lieskovec",
+   "location": "Tatranská Štrba",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 6,
+   "guests": 21,
+   "status": "wolne",
+   "price": {
+    "main": 14749,
+    "main_src": "szallas.hu",
+    "reliable": true,
+    "all": [
+     {
+      "src": "szallas.hu",
+      "pln": 14749,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Szállás.hu",
+     "url": "https://szallas.hu/chata-lieskovec-chata-v-lese-blizko-zubacky-tatranska-strba?checkin=2026-12-30&checkout=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [],
+   "round": 2,
+   "highlights": [
+    "dom w lesie",
+    "blisko zębatki Štrba",
+    "Štrbské Pleso"
    ]
   }
  ],

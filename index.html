@@ -60,6 +60,8 @@
   .b.ok { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
   .b.unk { background: var(--info-soft); color: var(--info); }
   .b.bad { background: var(--bad-soft); color: var(--bad); font-weight: 600; }
+  .b.star { background: var(--warn-soft); color: var(--warn); font-weight: 600; }
+  .b.hl { white-space: normal; }
   .price { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .price small { font-size: 12px; font-weight: 400; color: var(--muted); }
   .others { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -164,7 +166,7 @@
 
 <footer class="wrap">
   <p><b>Jak czytać dostępność.</b> „Wolne” = portal pokazał dom z ceną w wyszukiwarce z tymi datami i 10 dorosłymi w dniu sprawdzenia. „Do sprawdzenia” = dom pasuje wielkością, ale portal nie ma kalendarza — trzeba zadzwonić. „Sprzeczne” = jedno źródło pokazuje wolne, inne (np. kalendarz właściciela) zajęte.</p>
-  <p><b>Ceny.</b> Pokazuję cenę z Airbnb, Booking, nocowanie.pl, noclegi.pl lub megaubytovanie.sk. Ceny tylko z agregatorów i noclegowo.pl są oznaczone jako orientacyjne — potrafiły być kilka razy niższe niż ten sam dom na Airbnb. Ceny słowackie przeliczone z EUR (ok. 4,3 zł), bez opłat dodatkowych.</p>
+  <p><b>Ceny.</b> Pokazuję cenę z Airbnb, Booking, nocowanie.pl, noclegi.pl, megaubytovanie.sk lub szallas.hu. Ceny tylko z agregatorów (Holidu, HomeToGo), noclegowo.pl i z cenników travelking.sk są oznaczone jako orientacyjne — potrafiły być kilka razy niższe niż ten sam dom na Airbnb. Ceny słowackie przeliczone z EUR (ok. 4,3 zł), bez opłat dodatkowych. Przy domach apartamentowych ze Słowacji cena obejmuje wszystkie jednostki naraz.</p>
   <p><b>Kontakty</b> pochodzą z publicznych ogłoszeń i stron obiektów. Stan danych: <span id="gen"></span>.</p>
 </footer>
 
@@ -282,6 +284,8 @@
     b.append(el('span', 'b ' + st[1], st[0]));
     b.append(el('span', 'b', `${h.bedrooms} sypialni`));
     if (h.guests) b.append(el('span', 'b', `do ${h.guests} osób`));
+    if (typeof h.rating === 'string' && h.rating) b.append(el('span', 'b star', '★ ' + h.rating));
+    (Array.isArray(h.highlights) ? h.highlights : []).slice(0, 3).forEach(t => { if (typeof t === 'string' && t) b.append(el('span', 'b hl', t)); });
     info.append(b);
 
     if (h.price && h.price.main != null) {

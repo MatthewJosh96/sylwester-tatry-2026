@@ -46,8 +46,13 @@
   button.reset { font: inherit; font-size: 13px; background: none; border: 1px solid var(--line); color: var(--text); border-radius: 8px; padding: 6px 10px; min-height: 36px; cursor: pointer; }
 
   section h2 { font-size: 18px; margin: 26px 0 10px; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 12px; }
-  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+  .storehint { font-size: 13px; color: var(--muted); margin: -4px 0 12px; }
+  .storehint.bad { color: var(--bad); font-weight: 600; }
+  .list { display: flex; flex-direction: column; gap: 12px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; box-shadow: var(--shadow); display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 340px); gap: 16px; min-width: 0; }
+  .card.called { border-color: var(--accent); box-shadow: inset 4px 0 0 var(--accent); }
+  .info { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+  .side { display: flex; flex-direction: column; gap: 10px; min-width: 0; border-left: 1px solid var(--line); padding-left: 16px; }
   .card h3 { margin: 0; font-size: 16px; line-height: 1.3; overflow-wrap: anywhere; }
   .where { color: var(--muted); font-size: 13px; }
   .badges { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -58,10 +63,19 @@
   .price { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .price small { font-size: 12px; font-weight: 400; color: var(--muted); }
   .others { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
-  .contact { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 14px; }
-  .contact a { text-decoration: none; }
+  .contact { display: flex; flex-direction: column; gap: 4px; font-size: 14px; min-width: 0; }
+  .contact a { text-decoration: none; overflow-wrap: anywhere; }
   .contact a:hover { text-decoration: underline; }
+  .contact a.tel { font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; }
   .nocontact { font-size: 13px; color: var(--muted); }
+  .callrow { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+  .callchk { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 12px; font-size: 14px; font-weight: 600; background: var(--surface-2); border: 1px solid var(--line); border-radius: 8px; cursor: pointer; }
+  .callchk input { width: 18px; height: 18px; margin: 0; accent-color: var(--accent); }
+  .card.called .callchk { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+  .calledat, .saved { font-size: 12px; color: var(--muted); }
+  .saved.bad { color: var(--bad); }
+  .notelab { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); }
+  .note { font: inherit; font-size: 14px; color: var(--text); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; width: 100%; min-height: 76px; resize: vertical; }
   .links { display: flex; flex-wrap: wrap; gap: 6px; }
   .links a { font-size: 12px; text-decoration: none; border: 1px solid var(--line); border-radius: 6px; padding: 3px 8px; color: var(--text); }
   .links a:hover { border-color: var(--accent); color: var(--accent); }
@@ -79,7 +93,8 @@
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
   @media (max-width: 640px) {
-    .grid { grid-template-columns: 1fr; }
+    .card { grid-template-columns: 1fr; gap: 12px; }
+    .side { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); padding-top: 12px; }
     .f input[type=search] { width: 100%; }
     .f.search { flex: 1 1 100%; }
     .filters { position: static; }
@@ -136,7 +151,8 @@
 <main class="wrap">
   <section aria-labelledby="h-list">
     <h2 id="h-list">Domy</h2>
-    <div class="grid" id="list"></div>
+    <p class="storehint" id="storehint"></p>
+    <div class="list" id="list"></div>
   </section>
 
   <section aria-labelledby="h-olx">
@@ -161,50 +177,115 @@
   const STATUS = { wolne: ['Wolne w terminie', 'ok'], nieznana: ['Dostępność do sprawdzenia', 'unk'], SPRZECZNE: ['Sprzeczna dostępność', 'bad'] };
   let DATA = null;
 
-  function card(h) {
-    const c = el('article', 'card');
-    c.append(el('h3', null, h.name));
-    c.append(el('div', 'where', [h.location, h.country === 'SK' ? 'Słowacja' : null, h.km != null ? `ok. ${Math.round(h.km)} km od Zakopanego` : null].filter(Boolean).join(' · ')));
-    const b = el('div', 'badges');
-    const st = STATUS[h.status] || ['?', ''];
-    b.append(el('span', 'b ' + st[1], st[0]));
-    b.append(el('span', 'b', `${h.bedrooms} sypialni`));
-    if (h.guests) b.append(el('span', 'b', `do ${h.guests} osób`));
-    c.append(b);
+  // Notatki i znaczniki „zadzwoniono” żyją tylko w localStorage tej przeglądarki; strona jest statyczna i nic nie wysyła.
+  const STORE_KEY = 'sylwester-tatry-2026:notatki:v1';
+  let storageOk = true;
+  let notes = {};
+  function readStore() {
+    let raw;
+    try { raw = localStorage.getItem(STORE_KEY); } catch { storageOk = false; return null; }
+    if (!raw) return {};
+    try { const o = JSON.parse(raw); return (o && typeof o === 'object' && !Array.isArray(o)) ? o : {}; } catch { return {}; }
+  }
+  function saveEntry(h, patch) {
+    // świeży odczyt, żeby druga otwarta karta nie nadpisała notatek zapisanych w niej do innych domów
+    const cur = (storageOk && readStore()) || notes;
+    const e = Object.assign({}, cur[h.id], patch, { name: h.name, updated: new Date().toISOString() });
+    if (!e.called && !String(e.note || '').trim()) delete cur[h.id]; else cur[h.id] = e;
+    notes = cur;
+    if (!storageOk) return false;
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(cur)); return true; } catch { return false; }
+  }
+  const fmtTime = (iso) => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleString('pl-PL', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }); };
+  function updateCalledFact() {
+    const li = $('calledFact'); if (!li) return;
+    const n = DATA.houses.filter(h => notes[h.id] && notes[h.id].called === true).length;
+    li.replaceChildren(el('b', null, String(n)), document.createTextNode(' zadzwoniono'));
+  }
 
-    if (h.price && h.price.main != null) {
-      const p = el('div', 'price', zl(h.price.main));
-      p.append(el('small', null, ` / 7 nocy · ${h.price.main_src}${h.price.reliable ? '' : ' · orientacyjna'}`));
-      c.append(p);
-      const others = (h.price.all || []).filter(x => !(x.src === h.price.main_src && x.pln === h.price.main));
-      if (others.length) c.append(el('div', 'others', 'Inne źródła: ' + others.map(x => `${x.src} ${zl(x.pln)}`).join(', ')));
-    } else {
-      c.append(el('div', 'price', 'cena: zapytać'));
-    }
-
+  function side(h, c) {
+    const s = el('div', 'side');
     const ct = el('div', 'contact');
     (h.phones || []).forEach(ph => {
       const digits = ph.replace(/[^\d+]/g, '');
       if (digits.length < 9) return;
-      const a = el('a', null, '☎ ' + ph); a.href = 'tel:' + digits; ct.append(a);
+      const a = el('a', 'tel', '☎ ' + ph); a.href = 'tel:' + digits; ct.append(a);
     });
-    const w = safeUrl(h.website);
-    if (w) { const a = el('a', null, 'strona www'); a.href = w; a.target = '_blank'; a.rel = 'noopener noreferrer'; ct.append(a); }
     // tylko pojedynczy, prosty adres: bez ?, &, % itp., żeby dane z portali nie mogły dopisać odbiorców do mailto:
     (h.emails || []).forEach(m => {
       if (!/^[A-Za-z0-9._+-]+@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}$/.test(m)) return;
       const a = el('a', null, '✉ ' + m); a.href = 'mailto:' + encodeURIComponent(m).replace('%40', '@'); ct.append(a);
     });
-    if (ct.childElementCount) c.append(ct); else c.append(el('div', 'nocontact', 'Kontakt przez portal (brak publicznego telefonu)'));
+    const w = safeUrl(h.website);
+    if (w) { const a = el('a', null, 'strona www ↗'); a.href = w; a.target = '_blank'; a.rel = 'noopener noreferrer'; ct.append(a); }
+    s.append(ct.childElementCount ? ct : el('div', 'nocontact', 'Brak publicznego telefonu i e-maila — kontakt przez portal.'));
+
+    const n = notes[h.id] || {};
+    const row = el('div', 'callrow');
+    const lab = el('label', 'callchk');
+    const cb = el('input'); cb.type = 'checkbox'; cb.checked = n.called === true;
+    cb.setAttribute('aria-label', 'Zadzwoniono: ' + h.name);
+    lab.append(cb, document.createTextNode('Zadzwoniono'));
+    const at = el('span', 'calledat', cb.checked ? fmtTime(n.calledAt) : '');
+    row.append(lab, at);
+    c.classList.toggle('called', cb.checked);
+    cb.addEventListener('change', () => {
+      const now = new Date().toISOString();
+      const ok = saveEntry(h, { called: cb.checked, calledAt: cb.checked ? now : null });
+      c.classList.toggle('called', cb.checked);
+      at.textContent = !ok ? 'nie zapisano' : cb.checked ? fmtTime(now) : '';
+      updateCalledFact();
+    });
+    s.append(row);
+
+    const nl = el('label', 'notelab', 'Notatka');
+    const ta = el('textarea', 'note');
+    ta.rows = 3; ta.maxLength = 2000;
+    ta.placeholder = 'np. cena po rozmowie, oddzwonić po 18, zaliczka…';
+    ta.setAttribute('aria-label', 'Notatka: ' + h.name);
+    ta.value = typeof n.note === 'string' ? n.note : '';
+    nl.append(ta);
+    const sv = el('span', 'saved');
+    ta.addEventListener('input', () => {
+      const ok = saveEntry(h, { note: ta.value });
+      sv.textContent = ok ? 'zapisano' : 'nie zapisano — przeglądarka blokuje zapis';
+      sv.classList.toggle('bad', !ok);
+    });
+    s.append(nl, sv);
+    return s;
+  }
+
+  function card(h) {
+    const c = el('article', 'card');
+    const info = el('div', 'info');
+    c.append(info, side(h, c));
+    info.append(el('h3', null, h.name));
+    info.append(el('div', 'where', [h.location, h.country === 'SK' ? 'Słowacja' : null, h.km != null ? `ok. ${Math.round(h.km)} km od Zakopanego` : null].filter(Boolean).join(' · ')));
+    const b = el('div', 'badges');
+    const st = STATUS[h.status] || ['?', ''];
+    b.append(el('span', 'b ' + st[1], st[0]));
+    b.append(el('span', 'b', `${h.bedrooms} sypialni`));
+    if (h.guests) b.append(el('span', 'b', `do ${h.guests} osób`));
+    info.append(b);
+
+    if (h.price && h.price.main != null) {
+      const p = el('div', 'price', zl(h.price.main));
+      p.append(el('small', null, ` / 7 nocy · ${h.price.main_src}${h.price.reliable ? '' : ' · orientacyjna'}`));
+      info.append(p);
+      const others = (h.price.all || []).filter(x => !(x.src === h.price.main_src && x.pln === h.price.main));
+      if (others.length) info.append(el('div', 'others', 'Inne źródła: ' + others.map(x => `${x.src} ${zl(x.pln)}`).join(', ')));
+    } else {
+      info.append(el('div', 'price', 'cena: zapytać'));
+    }
 
     const ln = el('div', 'links');
     (h.links || []).forEach(l => { const u = safeUrl(l.url); if (!u) return; const a = el('a', null, l.label + ' ↗'); a.href = u; a.target = '_blank'; a.rel = 'noopener noreferrer'; ln.append(a); });
-    if (ln.childElementCount) c.append(ln);
+    if (ln.childElementCount) info.append(ln);
 
     if (h.flags && h.flags.length) {
       const ul = el('ul', 'warns');
       h.flags.forEach(f => ul.append(el('li', f.level === 'bad' ? 'bad' : null, f.text)));
-      c.append(ul);
+      info.append(ul);
     }
     return c;
   }
@@ -238,6 +319,11 @@
 
   function init(d) {
     DATA = d;
+    try { localStorage.setItem(STORE_KEY + ':probe', '1'); localStorage.removeItem(STORE_KEY + ':probe'); } catch { storageOk = false; }
+    notes = (storageOk && readStore()) || {};
+    const hint = $('storehint');
+    if (storageOk) hint.textContent = 'Znaczniki „Zadzwoniono” i notatki zapisują się tylko w tej przeglądarce na tym urządzeniu. Nikt inny ich nie widzi.';
+    else { hint.textContent = 'Ta przeglądarka blokuje zapis (np. tryb prywatny): notatki i znaczniki znikną po zamknięciu strony.'; hint.classList.add('bad'); }
     const mq = window.matchMedia('(max-width: 640px)');
     if (mq.matches) $('fbox').open = false;
     // na szerokim ekranie przycisk zwijania jest ukryty, więc filtry muszą być wtedy rozwinięte
@@ -251,6 +337,7 @@
       ['portali przeszukanych', d.portals],
     ];
     facts.forEach(([t, n]) => { const li = el('li'); li.append(el('b', null, String(n)), document.createTextNode(' ' + t)); $('facts').append(li); });
+    const cf = el('li'); cf.id = 'calledFact'; $('facts').append(cf); updateCalledFact();
     $('olxLead').textContent = d.olx_note;
     const tb = document.querySelector('#olx tbody');
     d.olx_sent.forEach(o => {

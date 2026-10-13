@@ -1,6 +1,6 @@
 {
  "generated": "13.10.2026",
- "portals": 20,
+ "portals": 21,
  "houses": [
   {
    "id": "H001",
@@ -7200,6 +7200,762 @@
     "dom w lesie",
     "blisko zębatki Štrba",
     "Štrbské Pleso"
+   ]
+  },
+  {
+   "id": "H210",
+   "name": "Osada Maruszyna",
+   "location": "Maruszyna",
+   "country": "PL",
+   "km": 15.0,
+   "bedrooms": 6,
+   "guests": 16,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=15054665639139805480&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://www.osadamaruszyna.pl/sylwester-w-gorach"
+    }
+   ],
+   "phones": [
+    "661 429 746"
+   ],
+   "website": "https://osadamaruszyna.pl/",
+   "emails": [
+    "kontakt@osadamaruszyna.pl"
+   ],
+   "flags": [],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "4,9/5 · 276 opinii",
+   "highlights": [
+    "sauna",
+    "balia/jacuzzi",
+    "kominek"
+   ]
+  },
+  {
+   "id": "H211",
+   "name": "Villa Zoniówka",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 5.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=4205381790097185580&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://zakovilla.pl/villa-zoniowka/"
+    }
+   ],
+   "phones": [
+    "883 362 483",
+    "+48 22 230 20 35"
+   ],
+   "website": "https://zakovilla.pl/",
+   "emails": [],
+   "flags": [],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "4,5/5 · 14 opinii",
+   "highlights": [
+    "sauna",
+    "kominek",
+    "bilard"
+   ]
+  },
+  {
+   "id": "H212",
+   "name": "LUX-HOUSE & Willa Adrian",
+   "location": "Poronin",
+   "country": "PL",
+   "km": 4.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=17777950789490738599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://domkizakopane.eu/"
+    }
+   ],
+   "phones": [
+    "888 189 770"
+   ],
+   "website": "http://www.domkizakopane.eu/",
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Limit dokładnie 10 osób – bez zapasu."
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "5,0/5 · 7 opinii",
+   "highlights": [
+    "styl góralski"
+   ]
+  },
+  {
+   "id": "H213",
+   "name": "Rezydencja Spisz",
+   "location": "Niedzica",
+   "country": "PL",
+   "km": 29.0,
+   "bedrooms": 6,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": 27628,
+    "main_src": "strona obiektu",
+    "reliable": false,
+    "all": [
+     {
+      "src": "strona obiektu",
+      "pln": 27628,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=7973688240718322886&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://rezydencjaspisz.pl/offer/1/Usluga-noclegowa-w-Rezydencja-Spisz"
+    }
+   ],
+   "phones": [
+    "603 601 795"
+   ],
+   "website": "http://rezydencjaspisz.pl/",
+   "emails": [
+    "rezydencjaspisz@gmail.com"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena wyliczona z cennika „od” – orientacyjna: Wyliczone z cennika „od”: 4 noce × 4 560 zł (23.12–03.01) + 3 noce × 3 129,30 zł (03–06.01) ≈ 27 628 zł; ceny „od”, do p"
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "5,0/5 · 81 opinii",
+   "highlights": [
+    "basen podgrzewany",
+    "sauna",
+    "balia"
+   ]
+  },
+  {
+   "id": "H214",
+   "name": "Malinowa Chata w Murzasichlu",
+   "location": "Murzasichle",
+   "country": "PL",
+   "km": 7.0,
+   "bedrooms": 5,
+   "guests": 18,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=2138681982883458855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+   ],
+   "phones": [
+    "607 371 559"
+   ],
+   "website": "https://www.malinowachata.com.pl/",
+   "emails": [
+    "kontakt@malinowachata.com.pl"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Do potwierdzenia: Dom z 5 sypialniami i 4 łazienkami, balia z jacuzzi, altana z kominkiem. Strona nie pisze wprost „na wyłączność”, ale opisuje wynajem całego domku; potwierdzić telefonicz"
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "4,7/5 · 53 opinie",
+   "highlights": [
+    "balia/jacuzzi",
+    "altana z kominkiem",
+    "plac zabaw"
+   ]
+  },
+  {
+   "id": "H215",
+   "name": "OSADA 4 PORY ROKU CZORSZTYN",
+   "location": "Czorsztyn",
+   "country": "PL",
+   "km": 30.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=429752603061467919&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://czorsztyn.czterypory.info/wynajem/cennik/"
+    }
+   ],
+   "phones": [
+    "605 631 994"
+   ],
+   "website": "http://czorsztyn.czterypory.info/wynajem/",
+   "emails": [
+    "czorsztyn@czterypory.info"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cennik: Sokolica: SYLWESTER (27.12.2026–02.01.2027, min. 5 dób) 2 100 zł/doba za cały dom; styczeń–luty 1 250 zł/doba (7 dni, 8 os.) + 80 zł/os. ponad 8 — sumy nie licz"
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "4,8/5 · 226 opinii",
+   "highlights": [
+    "kominek",
+    "taras"
+   ]
+  },
+  {
+   "id": "H216",
+   "name": "Bukowina Brzegi dom do wynajecia",
+   "location": "Brzegi",
+   "country": "PL",
+   "km": 13.0,
+   "bedrooms": 5,
+   "guests": null,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=11438093634085427675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+   ],
+   "phones": [
+    "509 051 730"
+   ],
+   "website": "https://bukowina-brzegi-dom.pl/",
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Do potwierdzenia: Cały dom, 5 sypialni, kominek; strona NIE podaje maksymalnej liczby osób — potwierdzić, czy 10 osób. Adres na stronie: Halna 18A."
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "5,0/5 · 1 opinia",
+   "highlights": [
+    "kominek",
+    "blisko stoków i term"
+   ]
+  },
+  {
+   "id": "H217",
+   "name": "LK Forest Villa",
+   "location": "Łapsze Niżne",
+   "country": "PL",
+   "km": 23.0,
+   "bedrooms": null,
+   "guests": 14,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=4249324945904463460&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://www.lkresorts.pl/lk-forest-villa"
+    }
+   ],
+   "phones": [
+    "512 029 929",
+    "+48 512 029 929"
+   ],
+   "website": "https://www.lkresorts.pl/lk-forest-villa#",
+   "emails": [
+    "rezerwacje@lkresorts.pl"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Do potwierdzenia: Dom Modrzew (205 m², max 14 os., jacuzzi, sauna, grota solna) — sypialnie niepotwierdzone. Ten sam operator ma LK Folk Chalet z 5 sypialniami (osobny wpis). Daleko od Zak"
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "4,9/5 · 58 opinii",
+   "highlights": [
+    "basen",
+    "jacuzzi",
+    "sauna"
+   ]
+  },
+  {
+   "id": "H218",
+   "name": "LK Folk Chalet (LK Resorts)",
+   "location": "Łapsze Niżne",
+   "country": "PL",
+   "km": 24.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [],
+   "phones": [
+    "+48 512 029 929"
+   ],
+   "website": "https://www.lkresorts.pl/domki-i-apartamenty",
+   "emails": [
+    "rezerwacje@lkresorts.pl"
+   ],
+   "flags": [],
+   "round": 3,
+   "via": "Mapy Google",
+   "highlights": [
+    "sauna",
+    "jacuzzi",
+    "bilard"
+   ]
+  },
+  {
+   "id": "H219",
+   "name": "Domki u King Konga",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 5.0,
+   "bedrooms": null,
+   "guests": 10,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=17679773727117964852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://domkiukingkongazakopane.pl/"
+    }
+   ],
+   "phones": [
+    "602 529 530"
+   ],
+   "website": "http://domkiukingkongazakopane.pl/",
+   "emails": [
+    "kingkong8043@gmail.com"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Do potwierdzenia: Nie potwierdzono liczby sypialni (strona i wyszukiwarka jej nie podają); 2 domki, każdy do 10 os. z 2 łazienkami — 5 sypialni mało prawdopodobne. Dostępność tylko telefon"
+    },
+    {
+     "level": "warn",
+     "text": "Limit dokładnie 10 osób – bez zapasu."
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "5,0/5 · 90 opinii"
+  },
+  {
+   "id": "H220",
+   "name": "DOMKI NA WIERCHU Krystyna i Andrzej Łukaszczyk, Białka Tatrzańska",
+   "location": "Białka Tatrzańska",
+   "country": "PL",
+   "km": 12.0,
+   "bedrooms": null,
+   "guests": 11,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=7889247386686743818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://lukaszczyk82c.pl/domki-na-wierchu/"
+    }
+   ],
+   "phones": [
+    "600 304 503",
+    "600 304 507"
+   ],
+   "website": "https://www.lukaszczyk82c.pl/",
+   "emails": [
+    "andylukaszczyk@wp.pl"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Do potwierdzenia: Domek 11-osobowy na wyłączność przy stoku Kotelnica; nie potwierdzono liczby sypialni ani dostępności (brak kalendarza). Odległość: w linii prostej od centrum Zakopanego."
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "4,9/5 · 63 opinie",
+   "highlights": [
+    "przy górnej stacji Kotelnicy"
+   ]
+  },
+  {
+   "id": "H221",
+   "name": "Villa Swiss Kościelisko",
+   "location": "Kościelisko",
+   "country": "PL",
+   "km": 5.0,
+   "bedrooms": 5,
+   "guests": 11,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=12767805940947849932&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://villaswiss.pl/"
+    }
+   ],
+   "phones": [
+    "18 521 55 40"
+   ],
+   "website": "http://villaswiss.pl/",
+   "emails": [
+    "rezerwacje@villaswiss.pl"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cennik: Hotres: 19 000 zł za 5 nocy 30.12–04.01 (10 os., przedpłata 50%); cena za 7 nocy niedostępna online"
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "4,6/5 · 28 opinii",
+   "highlights": [
+    "sauna",
+    "jacuzzi zewnętrzne",
+    "kominek"
+   ]
+  },
+  {
+   "id": "H222",
+   "name": "Osada w Gliczarowej Dolinie",
+   "location": "Gliczarów Dolny",
+   "country": "PL",
+   "km": 10.0,
+   "bedrooms": 6,
+   "guests": 18,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=5814601678732202252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://gliczarowaosada.pl/"
+    }
+   ],
+   "phones": [
+    "510 050 107"
+   ],
+   "website": "https://dolinagliczarow.pl/",
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Do potwierdzenia: Chata 18-os. (6 pokoi z łazienkami) + osobny domek 8-os. Strona nie mówi wprost o wynajmie całej chaty, ale układ (wspólny salon, kuchnia 40 m²) i oferta na Booking.com „"
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "4,9/5 · 28 opinii",
+   "highlights": [
+    "kominek",
+    "40 m² kuchnia",
+    "6 łazienek"
+   ]
+  },
+  {
+   "id": "H223",
+   "name": "Rezydencja Kojsówka",
+   "location": "Witów",
+   "country": "PL",
+   "km": 9.0,
+   "bedrooms": 12,
+   "guests": 32,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=5021302475309374971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://rezydencjakojsowka.pl/oferty-specjalne/sylwester"
+    }
+   ],
+   "phones": [
+    "883 546 147"
+   ],
+   "website": "https://rezydencjakojsowka.pl/",
+   "emails": [
+    "info@rezydencjakojsowka.pl"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Do potwierdzenia: Pensjonat 12 pokoi / 32 os. ze śniadaniami; na Sylwestra oferuje całość dla jednej grupy — dla 10 osób to duży obiekt i cena za całość nieznana. Odległość: w linii proste"
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "4,6/5 · 106 opinii",
+   "highlights": [
+    "balia (300 zł)",
+    "śniadania w cenie",
+    "ogród nad rzeką"
+   ]
+  },
+  {
+   "id": "H224",
+   "name": "Jadwiga Ful",
+   "location": "Orawka",
+   "country": "PL",
+   "km": 27.0,
+   "bedrooms": 5,
+   "guests": 20,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=11346114135371758668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+   ],
+   "phones": [
+    "888 470 253"
+   ],
+   "website": "http://agroful.com/",
+   "emails": [
+    "orawka@aol.com"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Do potwierdzenia: Agroturystyka: 5 jednostek (apartament, 2 studia, 2 pokoje), cały dom do wynajęcia; wspólny jest tylko mały aneks na korytarzu + biesiadnia. Dostępność i cena nieznane. D"
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "4,8/5 · 18 opinii",
+   "highlights": [
+    "kominek",
+    "sauna (płatna)",
+    "bilard"
+   ]
+  },
+  {
+   "id": "H225",
+   "name": "Tatrzańskie Domki",
+   "location": "Poronin",
+   "country": "PL",
+   "km": 7.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=14280062010322016537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://tatrzanskiedomki.pl/goralski/"
+    }
+   ],
+   "phones": [
+    "+48 696 976 989"
+   ],
+   "website": "http://www.tatrzanskiedomki.pl/",
+   "emails": [
+    "info@tatrzanskiedomki.pl"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Do potwierdzenia: Dwa domki: Góralski (5 sypialni, 10–15 os.) i Tatrzański (2 sypialnie + poddasze, do 8 os.). Uwaga: strona ma niespójności (zakładka Oferta opisuje 6-os. dom z 3 sypialni"
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "4,8/5 · 106 opinii",
+   "highlights": [
+    "kominek (w opisie obiektu)",
+    "altana",
+    "grill"
+   ]
+  },
+  {
+   "id": "H226",
+   "name": "Dom u Małgosi",
+   "location": "Witów",
+   "country": "PL",
+   "km": 9.0,
+   "bedrooms": null,
+   "guests": 14,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Mapy Google",
+     "url": "https://maps.google.com/?cid=12958567384732972021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+     "label": "Strona obiektu",
+     "url": "https://domkiwitow.pl/oferta/dom-u-malgosi"
+    }
+   ],
+   "phones": [
+    "502 173 551"
+   ],
+   "website": "https://domkiwitow.pl/",
+   "emails": [
+    "domkiwitow@gmail.com",
+    "kontakt@domkiwitow.pl"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Do potwierdzenia: Cały wolnostojący dom dla 14 os. („idealne dla grup”), ale liczba sypialni nieznana — nie znalazłem innych ogłoszeń (WebSearch). Do potwierdzenia telefonicznie."
+    }
+   ],
+   "round": 3,
+   "via": "Mapy Google",
+   "rating": "4,9/5 · 44 opinie",
+   "highlights": [
+    "plac zabaw",
+    "grill"
    ]
   }
  ],

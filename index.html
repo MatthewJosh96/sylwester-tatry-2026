@@ -167,7 +167,7 @@
 <footer class="wrap">
   <p><b>Jak czytać dostępność.</b> „Wolne” = portal pokazał dom z ceną w wyszukiwarce z tymi datami i 10 dorosłymi w dniu sprawdzenia. „Do sprawdzenia” = dom pasuje wielkością, ale portal nie ma kalendarza — trzeba zadzwonić. „Sprzeczne” = jedno źródło pokazuje wolne, inne (np. kalendarz właściciela) zajęte.</p>
   <p><b>Ceny.</b> Pokazuję cenę z Airbnb, Booking, nocowanie.pl, noclegi.pl, megaubytovanie.sk lub szallas.hu. Ceny tylko z agregatorów (Holidu, HomeToGo), noclegowo.pl i z cenników travelking.sk są oznaczone jako orientacyjne — potrafiły być kilka razy niższe niż ten sam dom na Airbnb. Ceny słowackie przeliczone z EUR (ok. 4,3 zł), bez opłat dodatkowych. Przy domach apartamentowych ze Słowacji cena obejmuje wszystkie jednostki naraz.</p>
-  <p><b>Kontakty</b> pochodzą z publicznych ogłoszeń i stron obiektów. Stan danych: <span id="gen"></span>.</p>
+  <p><b>Kontakty</b> pochodzą z publicznych ogłoszeń, stron obiektów i wizytówek w Mapach Google. Domy z Map Google zwykle nie mają kalendarza online — dostępność trzeba potwierdzić telefonicznie. Stan danych: <span id="gen"></span>.</p>
 </footer>
 
 <script>
@@ -282,7 +282,7 @@
     const b = el('div', 'badges');
     const st = STATUS[h.status] || ['?', ''];
     b.append(el('span', 'b ' + st[1], st[0]));
-    b.append(el('span', 'b', `${h.bedrooms} sypialni`));
+    b.append(el('span', 'b', h.bedrooms != null ? `${h.bedrooms} sypialni` : 'sypialnie: ?'));
     if (h.guests) b.append(el('span', 'b', `do ${h.guests} osób`));
     if (typeof h.rating === 'string' && h.rating) b.append(el('span', 'b star', '★ ' + h.rating));
     (Array.isArray(h.highlights) ? h.highlights : []).slice(0, 3).forEach(t => { if (typeof t === 'string' && t) b.append(el('span', 'b hl', t)); });
@@ -321,7 +321,7 @@
     let rows = DATA.houses.filter(h =>
       st.has(h.status) &&
       (!country || h.country === country) &&
-      h.bedrooms >= minBed &&
+      (h.bedrooms == null ? minBed <= 5 : h.bedrooms >= minBed) &&
       (isNaN(maxPrice) || (h.price && h.price.main != null && h.price.main <= maxPrice)) &&
       (isNaN(maxKm) || (h.km != null && h.km <= maxKm)) &&
       (!onlyPhone || (h.phones && h.phones.length)) &&
@@ -330,7 +330,7 @@
     const s = $('sort').value;
     // orientacyjne ceny (agregatory) potrafią być kilka razy zaniżone, więc idą za cenami z pewnych źródeł
     const pv = (h) => (h.price && h.price.main != null) ? (h.price.reliable ? h.price.main : 1e7 + h.price.main) : Infinity;
-    rows.sort(s === 'km' ? (a, b) => (a.km ?? 999) - (b.km ?? 999) : s === 'bed' ? (a, b) => b.bedrooms - a.bedrooms || pv(a) - pv(b) : (a, b) => pv(a) - pv(b) || (a.km ?? 999) - (b.km ?? 999));
+    rows.sort(s === 'km' ? (a, b) => (a.km ?? 999) - (b.km ?? 999) : s === 'bed' ? (a, b) => (b.bedrooms ?? 0) - (a.bedrooms ?? 0) || pv(a) - pv(b) : (a, b) => pv(a) - pv(b) || (a.km ?? 999) - (b.km ?? 999));
     const list = $('list'); list.replaceChildren();
     if (!rows.length) list.append(el('div', 'empty', 'Brak domów dla tych filtrów.'));
     else { const frag = document.createDocumentFragment(); rows.forEach(h => frag.append(card(h))); list.append(frag); }

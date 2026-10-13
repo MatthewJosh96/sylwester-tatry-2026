@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Sylwester w Tatrach 2026/27</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M2 28 12 10l5 8 4-6 9 16z' fill='%231f5f4a'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #f6f5f1; --surface: #ffffff; --surface-2: #f0eee8; --text: #1c1d1f; --muted: #62656b;
+    --line: #dedbd2; --accent: #1f5f4a; --accent-soft: #e2efe9; --warn: #8a5a00; --warn-soft: #fbf0d9;
+    --bad: #9b2c2c; --bad-soft: #f8e1e1; --info: #2c4f8a; --info-soft: #e3eaf7; --shadow: 0 1px 2px rgba(0,0,0,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141517; --surface: #1d1f22; --surface-2: #26292d; --text: #ecebe7; --muted: #a2a5ab;
+      --line: #33363b; --accent: #6fc3a2; --accent-soft: #1f3a31; --warn: #e8b25a; --warn-soft: #3a2f1c;
+      --bad: #f08a8a; --bad-soft: #3d2222; --info: #8fb2ee; --info-soft: #1f2b40; --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color: var(--accent); }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 28px 0 12px; }
+  h1 { font-size: clamp(22px, 4vw, 32px); line-height: 1.2; margin: 0 0 6px; letter-spacing: -.01em; }
+  .lead { color: var(--muted); margin: 0; max-width: 70ch; }
+  .facts { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 0; padding: 0; list-style: none; }
+  .facts li { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: 13px; }
+  .facts b { font-variant-numeric: tabular-nums; }
+
+  .filters { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); padding: 10px 0; margin-top: 16px; }
+  .frow { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: end; }
+  .f { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--muted); }
+  .f input, .f select { font: inherit; font-size: 14px; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; min-height: 36px; }
+  .f input[type=search] { width: 200px; }
+  .f input[type=number] { width: 110px; }
+  .checks { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chk { display: inline-flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; font-size: 13px; color: var(--text); cursor: pointer; min-height: 36px; }
+  .chk input { margin: 0; }
+  .count { font-size: 13px; color: var(--muted); padding-top: 6px; }
+  .fbox summary { cursor: pointer; font-weight: 600; font-size: 14px; padding: 4px 0 8px; list-style-position: inside; }
+  @media (min-width: 641px) { .fbox summary { display: none; } }
+  button.reset { font: inherit; font-size: 13px; background: none; border: 1px solid var(--line); color: var(--text); border-radius: 8px; padding: 6px 10px; min-height: 36px; cursor: pointer; }
+
+  section h2 { font-size: 18px; margin: 26px 0 10px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 12px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+  .card h3 { margin: 0; font-size: 16px; line-height: 1.3; overflow-wrap: anywhere; }
+  .where { color: var(--muted); font-size: 13px; }
+  .badges { display: flex; flex-wrap: wrap; gap: 6px; }
+  .b { font-size: 12px; border-radius: 6px; padding: 2px 8px; background: var(--surface-2); white-space: nowrap; }
+  .b.ok { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  .b.unk { background: var(--info-soft); color: var(--info); }
+  .b.bad { background: var(--bad-soft); color: var(--bad); font-weight: 600; }
+  .price { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .price small { font-size: 12px; font-weight: 400; color: var(--muted); }
+  .others { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .contact { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 14px; }
+  .contact a { text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  .nocontact { font-size: 13px; color: var(--muted); }
+  .links { display: flex; flex-wrap: wrap; gap: 6px; }
+  .links a { font-size: 12px; text-decoration: none; border: 1px solid var(--line); border-radius: 6px; padding: 3px 8px; color: var(--text); }
+  .links a:hover { border-color: var(--accent); color: var(--accent); }
+  .warns { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 4px; }
+  .warns li { font-size: 12.5px; background: var(--warn-soft); color: var(--warn); border-radius: 6px; padding: 4px 8px; }
+  .warns li.bad { background: var(--bad-soft); color: var(--bad); }
+  .empty { padding: 30px; text-align: center; color: var(--muted); background: var(--surface); border: 1px dashed var(--line); border-radius: 12px; }
+
+  table.olx { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; font-size: 14px; }
+  table.olx th, table.olx td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.olx th { font-size: 12px; color: var(--muted); font-weight: 600; background: var(--surface-2); }
+  .tablewrap { overflow-x: auto; }
+  footer { color: var(--muted); font-size: 13px; padding: 30px 0 40px; }
+  footer p { max-width: 80ch; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  @media (max-width: 640px) {
+    .grid { grid-template-columns: 1fr; }
+    .f input[type=search] { width: 100%; }
+    .f.search { flex: 1 1 100%; }
+    .filters { position: static; }
+  }
+</style>
+</head>
+<body>
+<header class="wrap">
+  <h1>Sylwester w Tatrach 2026/27 — domy dla 10 osób, min. 5 sypialni</h1>
+  <p class="lead">Całe domy na wyłączność, przyjazd <b>30.12.2026</b>, wyjazd <b>06.01.2027</b> (7 nocy), do ok. 100 km od Zakopanego (Podhale, Pieniny, Gorce, Orawa, Beskidy i słowackie Tatry). Ceny łączne za cały pobyt dla 10 dorosłych, tak jak pokazały portale.</p>
+  <ul class="facts" id="facts"></ul>
+</header>
+
+<div class="filters" role="search">
+  <details class="wrap fbox" id="fbox" open>
+  <summary>Filtry i sortowanie</summary>
+  <div class="frow">
+    <label class="f search">Szukaj
+      <input type="search" id="q" placeholder="nazwa, miejscowość, telefon">
+    </label>
+    <label class="f">Kraj
+      <select id="country"><option value="">Wszystkie</option><option value="PL">Polska</option><option value="SK">Słowacja</option></select>
+    </label>
+    <label class="f">Cena do (zł)
+      <input type="number" id="maxPrice" min="0" step="1000" placeholder="bez limitu">
+    </label>
+    <label class="f">Odległość do (km)
+      <input type="number" id="maxKm" min="0" step="5" placeholder="bez limitu">
+    </label>
+    <label class="f">Sypialnie od
+      <select id="minBed"><option value="5">5+</option><option value="6">6+</option><option value="7">7+</option><option value="8">8+</option></select>
+    </label>
+    <label class="f">Sortuj
+      <select id="sort">
+        <option value="price">cena rosnąco</option>
+        <option value="km">odległość</option>
+        <option value="bed">sypialnie malejąco</option>
+      </select>
+    </label>
+    <div class="f">Dostępność
+      <div class="checks">
+        <label class="chk"><input type="checkbox" id="stWolne" checked> wolne</label>
+        <label class="chk"><input type="checkbox" id="stNieznana"> do sprawdzenia</label>
+        <label class="chk"><input type="checkbox" id="stSprzeczne"> sprzeczne</label>
+        <label class="chk"><input type="checkbox" id="onlyPhone"> z telefonem</label>
+      </div>
+    </div>
+    <button class="reset" id="reset" type="button">Wyczyść</button>
+  </div>
+  </details>
+  <div class="wrap count" id="count" aria-live="polite"></div>
+</div>
+
+<main class="wrap">
+  <section aria-labelledby="h-list">
+    <h2 id="h-list">Domy</h2>
+    <div class="grid" id="list"></div>
+  </section>
+
+  <section aria-labelledby="h-olx">
+    <h2 id="h-olx">Zapytania wysłane na OLX</h2>
+    <p class="lead" id="olxLead"></p>
+    <div class="tablewrap"><table class="olx" id="olx"><thead><tr><th>Dom</th><th>Miejscowość</th><th>Sypialnie</th><th>Ogłoszenie</th></tr></thead><tbody></tbody></table></div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p><b>Jak czytać dostępność.</b> „Wolne” = portal pokazał dom z ceną w wyszukiwarce z tymi datami i 10 dorosłymi w dniu sprawdzenia. „Do sprawdzenia” = dom pasuje wielkością, ale portal nie ma kalendarza — trzeba zadzwonić. „Sprzeczne” = jedno źródło pokazuje wolne, inne (np. kalendarz właściciela) zajęte.</p>
+  <p><b>Ceny.</b> Pokazuję cenę z Airbnb, Booking, nocowanie.pl, noclegi.pl lub megaubytovanie.sk. Ceny tylko z agregatorów i noclegowo.pl są oznaczone jako orientacyjne — potrafiły być kilka razy niższe niż ten sam dom na Airbnb. Ceny słowackie przeliczone z EUR (ok. 4,3 zł), bez opłat dodatkowych.</p>
+  <p><b>Kontakty</b> pochodzą z publicznych ogłoszeń i stron obiektów. Stan danych: <span id="gen"></span>.</p>
+</footer>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const zl = (n) => n == null ? '' : Math.round(n).toLocaleString('pl-PL') + ' zł';
+  const safeUrl = (u) => { try { const x = new URL(u); return (x.protocol === 'https:' || x.protocol === 'http:') ? x.href : null; } catch { return null; } };
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const STATUS = { wolne: ['Wolne w terminie', 'ok'], nieznana: ['Dostępność do sprawdzenia', 'unk'], SPRZECZNE: ['Sprzeczna dostępność', 'bad'] };
+  let DATA = null;
+
+  function card(h) {
+    const c = el('article', 'card');
+    c.append(el('h3', null, h.name));
+    c.append(el('div', 'where', [h.location, h.country === 'SK' ? 'Słowacja' : null, h.km != null ? `ok. ${Math.round(h.km)} km od Zakopanego` : null].filter(Boolean).join(' · ')));
+    const b = el('div', 'badges');
+    const st = STATUS[h.status] || ['?', ''];
+    b.append(el('span', 'b ' + st[1], st[0]));
+    b.append(el('span', 'b', `${h.bedrooms} sypialni`));
+    if (h.guests) b.append(el('span', 'b', `do ${h.guests} osób`));
+    c.append(b);
+
+    if (h.price && h.price.main != null) {
+      const p = el('div', 'price', zl(h.price.main));
+      p.append(el('small', null, ` / 7 nocy · ${h.price.main_src}${h.price.reliable ? '' : ' · orientacyjna'}`));
+      c.append(p);
+      const others = (h.price.all || []).filter(x => !(x.src === h.price.main_src && x.pln === h.price.main));
+      if (others.length) c.append(el('div', 'others', 'Inne źródła: ' + others.map(x => `${x.src} ${zl(x.pln)}`).join(', ')));
+    } else {
+      c.append(el('div', 'price', 'cena: zapytać'));
+    }
+
+    const ct = el('div', 'contact');
+    (h.phones || []).forEach(ph => {
+      const digits = ph.replace(/[^\d+]/g, '');
+      if (digits.length < 9) return;
+      const a = el('a', null, '☎ ' + ph); a.href = 'tel:' + digits; ct.append(a);
+    });
+    const w = safeUrl(h.website);
+    if (w) { const a = el('a', null, 'strona www'); a.href = w; a.target = '_blank'; a.rel = 'noopener noreferrer'; ct.append(a); }
+    if (h.email && /^[^\s@<>]+@[^\s@<>]+\.[a-z]{2,}$/i.test(h.email)) { const a = el('a', null, '✉ ' + h.email); a.href = 'mailto:' + h.email; ct.append(a); }
+    if (ct.childElementCount) c.append(ct); else c.append(el('div', 'nocontact', 'Kontakt przez portal (brak publicznego telefonu)'));
+
+    const ln = el('div', 'links');
+    (h.links || []).forEach(l => { const u = safeUrl(l.url); if (!u) return; const a = el('a', null, l.label + ' ↗'); a.href = u; a.target = '_blank'; a.rel = 'noopener noreferrer'; ln.append(a); });
+    if (ln.childElementCount) c.append(ln);
+
+    if (h.flags && h.flags.length) {
+      const ul = el('ul', 'warns');
+      h.flags.forEach(f => ul.append(el('li', f.level === 'bad' ? 'bad' : null, f.text)));
+      c.append(ul);
+    }
+    return c;
+  }
+
+  function render() {
+    const q = $('q').value.trim().toLowerCase();
+    const country = $('country').value;
+    const maxPrice = parseFloat($('maxPrice').value);
+    const maxKm = parseFloat($('maxKm').value);
+    const minBed = parseInt($('minBed').value, 10);
+    const st = new Set([['wolne', $('stWolne').checked], ['nieznana', $('stNieznana').checked], ['SPRZECZNE', $('stSprzeczne').checked]].filter(x => x[1]).map(x => x[0]));
+    const onlyPhone = $('onlyPhone').checked;
+    let rows = DATA.houses.filter(h =>
+      st.has(h.status) &&
+      (!country || h.country === country) &&
+      h.bedrooms >= minBed &&
+      (isNaN(maxPrice) || (h.price && h.price.main != null && h.price.main <= maxPrice)) &&
+      (isNaN(maxKm) || (h.km != null && h.km <= maxKm)) &&
+      (!onlyPhone || (h.phones && h.phones.length)) &&
+      (!q || [h.name, h.location, (h.phones || []).join(' ')].join(' ').toLowerCase().includes(q))
+    );
+    const s = $('sort').value;
+    // orientacyjne ceny (agregatory) potrafią być kilka razy zaniżone, więc idą za cenami z pewnych źródeł
+    const pv = (h) => (h.price && h.price.main != null) ? (h.price.reliable ? h.price.main : 1e7 + h.price.main) : Infinity;
+    rows.sort(s === 'km' ? (a, b) => (a.km ?? 999) - (b.km ?? 999) : s === 'bed' ? (a, b) => b.bedrooms - a.bedrooms || pv(a) - pv(b) : (a, b) => pv(a) - pv(b) || (a.km ?? 999) - (b.km ?? 999));
+    const list = $('list'); list.replaceChildren();
+    if (!rows.length) list.append(el('div', 'empty', 'Brak domów dla tych filtrów.'));
+    else { const frag = document.createDocumentFragment(); rows.forEach(h => frag.append(card(h))); list.append(frag); }
+    $('count').textContent = `Pokazuję ${rows.length} z ${DATA.houses.length}`;
+  }
+
+  function init(d) {
+    DATA = d;
+    if (window.matchMedia('(max-width: 640px)').matches) $('fbox').open = false;
+    $('gen').textContent = d.generated;
+    const H = d.houses, cnt = (f) => H.filter(f).length;
+    const facts = [
+      ['wolnych domów', cnt(h => h.status === 'wolne')],
+      ['do sprawdzenia', cnt(h => h.status === 'nieznana')],
+      ['z telefonem', cnt(h => h.phones && h.phones.length)],
+      ['portali przeszukanych', d.portals],
+    ];
+    facts.forEach(([t, n]) => { const li = el('li'); li.append(el('b', null, String(n)), document.createTextNode(' ' + t)); $('facts').append(li); });
+    $('olxLead').textContent = d.olx_note;
+    const tb = document.querySelector('#olx tbody');
+    d.olx_sent.forEach(o => {
+      const tr = el('tr');
+      tr.append(el('td', null, o.name), el('td', null, o.location), el('td', null, String(o.bedrooms ?? '')));
+      const td = el('td'); const u = safeUrl(o.url);
+      if (u) { const a = el('a', null, 'OLX ↗'); a.href = u; a.target = '_blank'; a.rel = 'noopener noreferrer'; td.append(a); }
+      tr.append(td); tb.append(tr);
+    });
+    ['q', 'country', 'maxPrice', 'maxKm', 'minBed', 'sort', 'stWolne', 'stNieznana', 'stSprzeczne', 'onlyPhone'].forEach(id => $(id).addEventListener('input', render));
+    $('reset').addEventListener('click', () => {
+      $('q').value = ''; $('country').value = ''; $('maxPrice').value = ''; $('maxKm').value = ''; $('minBed').value = '5'; $('sort').value = 'price';
+      $('stWolne').checked = true; $('stNieznana').checked = false; $('stSprzeczne').checked = false; $('onlyPhone').checked = false; render();
+    });
+    render();
+  }
+
+  fetch('data.json', { cache: 'no-store' })
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(init)
+    .catch(() => { $('list').replaceChildren(el('div', 'empty', 'Nie udało się wczytać danych (data.json).')); });
+})();
+</script>
+</body>
+</html>

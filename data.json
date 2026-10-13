@@ -1,0 +1,5293 @@
+{
+ "generated": "13.10.2026",
+ "portals": 14,
+ "houses": [
+  {
+   "id": "H001",
+   "name": "Willa Popielica",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 2.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "wolne",
+   "price": {
+    "main": 23100,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 23100,
+      "reliable": true
+     },
+     {
+      "src": "airbnb.pl",
+      "pln": 24647,
+      "reliable": true
+     },
+     {
+      "src": "noclegi.pl",
+      "pln": 35140,
+      "reliable": true
+     },
+     {
+      "src": "nocowanie.pl",
+      "pln": 35140,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Noclegi.pl",
+     "url": "https://noclegi.pl/willa-popielica-zakopane?adults=10&checkin=2026-12-30&checkout=2027-01-06&children=0&rooms=1"
+    },
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/27515703?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/willa-popielica.pl.html?checkin=2026-12-30&checkout=2027-01-06&group_adults=10&no_rooms=1"
+    },
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/15897166"
+    },
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/rezerwuj/1491952-willa-popielica-zakopane/"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H002",
+   "name": "Villa 9A",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 2.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 13260,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 13260,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/6616059?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H003",
+   "name": "Golden Villa Panorama Zakopane Dalej",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 2.0,
+   "bedrooms": 6,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 46420,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 46420,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1643627718313305623?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H004",
+   "name": "Dujawica",
+   "location": "Zakopane / Tatry",
+   "country": "PL",
+   "km": 3.0,
+   "bedrooms": 9,
+   "guests": 20,
+   "status": "wolne",
+   "price": {
+    "main": 36205,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 36205,
+      "reliable": true
+     },
+     {
+      "src": "holidu.pl",
+      "pln": 36205,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/dujawica.pl.html?checkin=2026-12-30&checkout=2027-01-06&group_adults=10&no_rooms=1"
+    },
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/46067116"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H005",
+   "name": "Willa Żbikówka - dom do wynajęcia - 23 osoby",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 3.0,
+   "bedrooms": 6,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 49730,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 49730,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/12793566?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/21008312"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H006",
+   "name": "Dom",
+   "location": "Kościelisko",
+   "country": "PL",
+   "km": 3.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 324271,
+    "main_src": "holidu.pl",
+    "reliable": false,
+    "all": [
+     {
+      "src": "holidu.pl",
+      "pln": 324271,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/70342657"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
+    }
+   ]
+  },
+  {
+   "id": "H007",
+   "name": "Golden Tatra Chalet | Kominek, sauna i ogród",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 3.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "wolne",
+   "price": {
+    "main": 71101,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 71101,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1723731619671860566?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H008",
+   "name": "Willa Uroczysko Kościelisko (Dom)",
+   "location": "Kościelisko",
+   "country": "PL",
+   "km": 4.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 288844,
+    "main_src": "hometogo.pl",
+    "reliable": false,
+    "all": [
+     {
+      "src": "hometogo.pl",
+      "pln": 288844,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "HomeToGo",
+     "url": "https://www.hometogo.pl/rental/9e835eac3c386364750ae20bfccf9f0c"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
+    }
+   ]
+  },
+  {
+   "id": "H009",
+   "name": "Rezydencja Sywarne Lux Spa",
+   "location": "Kościelisko",
+   "country": "PL",
+   "km": 4.0,
+   "bedrooms": 5,
+   "guests": 11,
+   "status": "SPRZECZNE",
+   "price": {
+    "main": 53640,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 53640,
+      "reliable": true
+     },
+     {
+      "src": "holidu.pl",
+      "pln": 53640,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/rezydencja-sywarne-lux-spa.pl.html?checkin=2026-12-30&checkout=2027-01-06&group_adults=10&no_rooms=1"
+    },
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/57913179"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "bad",
+     "text": "Sprzeczne źródła – kalendarz udanypobyt.pl: 30.12–01.01 zajęte, Booking pokazuje wolne."
+    }
+   ]
+  },
+  {
+   "id": "H010",
+   "name": "Willa Miła Moja",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 4.0,
+   "bedrooms": 6,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 39545,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 39545,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/51499047?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H011",
+   "name": "Tatrzańska chata | 5 sypialni i widoki na góry",
+   "location": "Kościelisko",
+   "country": "PL",
+   "km": 4.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 17100,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 17100,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1126780111134133241?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Limit dokładnie 10 osób – bez zapasu."
+    }
+   ]
+  },
+  {
+   "id": "H012",
+   "name": "Willa Przy Bystrym Potoku z sauną i jacuzzi",
+   "location": "Ząb",
+   "country": "PL",
+   "km": 4.0,
+   "bedrooms": 7,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 42320,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 42320,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1772402091412402717?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H013",
+   "name": "Bali Residence - dom z sauną i widokiem na góry",
+   "location": "Kościelisko",
+   "country": "PL",
+   "km": 4.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": 35300,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 35300,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1102863251341653712?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H014",
+   "name": "Golden Villas Tatra View Chalet - Zakopane",
+   "location": "Kościelisko",
+   "country": "PL",
+   "km": 5.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 57194,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "hometogo.pl",
+      "pln": 7875,
+      "reliable": false
+     },
+     {
+      "src": "airbnb.pl",
+      "pln": 57194,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1421676391884642567?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "HomeToGo",
+     "url": "https://www.hometogo.pl/rental/zbfc68b423593aec7"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H015",
+   "name": "WHY NOT Myśliwska Exclusive Residence z basenem",
+   "location": "Kościelisko",
+   "country": "PL",
+   "km": 5.0,
+   "bedrooms": 6,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 56609,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 56609,
+      "reliable": true
+     },
+     {
+      "src": "holidu.pl",
+      "pln": 56609,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/why-not-rezydencja-mysliwski-dwor.pl.html?checkin=2026-12-30&checkout=2027-01-06&group_adults=10&no_rooms=1"
+    },
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/65769516"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H016",
+   "name": "Villa Taternik - Mountain View",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 5.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": 30440,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 30440,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1397719199617289507?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H017",
+   "name": "Ekskluzywny wypoczynek w Marjo!",
+   "location": "Kościelisko",
+   "country": "PL",
+   "km": 5.0,
+   "bedrooms": 7,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 74690,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 74690,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/35189383?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H018",
+   "name": "Dom przy Zielonym Szlaku",
+   "location": "Kościelisko",
+   "country": "PL",
+   "km": 6.0,
+   "bedrooms": 5,
+   "guests": 11,
+   "status": "wolne",
+   "price": {
+    "main": 25548,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 25548,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1056342866543727149?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H019",
+   "name": "Modrzewiowa Chata",
+   "location": "Kościelisko",
+   "country": "PL",
+   "km": 6.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "wolne",
+   "price": {
+    "main": 30897,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 30897,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1610316103243324898?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H020",
+   "name": "Luxury Chalet Wioska Jagny",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 6.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 31280,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 31280,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/623762394139053396?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "ZakopaneDomki",
+     "url": "https://zakopanedomki.com/wioska-jagny-dom.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H021",
+   "name": "Bajkowa Lux z balią z jacuzzi i widokiem na Tatry.",
+   "location": "Murzasichle",
+   "country": "PL",
+   "km": 6.0,
+   "bedrooms": 5,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 46676,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 46676,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/53543015?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H022",
+   "name": "Bajkowa Chata - Domek Nr 1 (Zakopane, TPN)",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 6.0,
+   "bedrooms": 6,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": 11550,
+    "main_src": "noclegowo.pl",
+    "reliable": false,
+    "all": [
+     {
+      "src": "noclegowo.pl",
+      "pln": 11550,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Noclegowo",
+     "url": "https://www.noclegowo.pl/zakopane/24465-bajkowa-chata-domek-nr-1-2/?dateFrom=2026-12-30&dateTo=2027-01-06&nbAdults=10"
+    }
+   ],
+   "phones": [
+    "+48 515 616 260"
+   ],
+   "website": "http://bajkowachata.pl",
+   "email": "rezerwacje@bajkowachata.pl",
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
+    }
+   ]
+  },
+  {
+   "id": "H023",
+   "name": "Dom w Chochołowie, 6 pokoi z łazienkami,",
+   "location": "Chochołów",
+   "country": "PL",
+   "km": 12.0,
+   "bedrooms": 6,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 20890,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 20890,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/33632462?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H024",
+   "name": "Tatrzański 22",
+   "location": "Leśnica",
+   "country": "PL",
+   "km": 12.0,
+   "bedrooms": 5,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 6783,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 6783,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/843276582337750914?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Podejrzanie niska cena jak na Sylwestra – potwierdź u gospodarza."
+    }
+   ]
+  },
+  {
+   "id": "H025",
+   "name": "Domek do wynajęcia Chochołów",
+   "location": "Chochołów",
+   "country": "PL",
+   "km": 12.0,
+   "bedrooms": 6,
+   "guests": 24,
+   "status": "wolne",
+   "price": {
+    "main": 17500,
+    "main_src": "nocowanie.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "nocowanie.pl",
+      "pln": 17500,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/rezerwuj/1542946-domek-do-wynajecia-chocholow/"
+    }
+   ],
+   "phones": [
+    "+48 505 305 924"
+   ],
+   "website": null,
+   "email": "mrtokarska@gmail.com",
+   "flags": []
+  },
+  {
+   "id": "H026",
+   "name": "Willa Gocówka – z widokiem, jacuzzi, sauną i biliardem",
+   "location": "Bukowina Tatrzańska",
+   "country": "PL",
+   "km": 13.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "wolne",
+   "price": {
+    "main": 28200,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 28200,
+      "reliable": true
+     },
+     {
+      "src": "airbnb.pl",
+      "pln": 28730,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1604203921290921855?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/willa-gocowka.pl.html"
+    },
+    {
+     "label": "gites.fr",
+     "url": "https://www.gites.fr/gites_bukowina-tatrzanska_170894_en.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H027",
+   "name": "U Władka pod grapą",
+   "location": "powiat tatrzański",
+   "country": "PL",
+   "km": 14.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 5352,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 5352,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/799729695685837518?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Podejrzanie niska cena jak na Sylwestra – potwierdź u gospodarza."
+    },
+    {
+     "level": "warn",
+     "text": "Limit dokładnie 10 osób – bez zapasu."
+    }
+   ]
+  },
+  {
+   "id": "H028",
+   "name": "Leśnicka Chata",
+   "location": "Leśnica",
+   "country": "PL",
+   "km": 15.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 9163,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 9163,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1188980193634009571?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H029",
+   "name": "udanypobyt Dom Forest Prestige House",
+   "location": "Zakopane / Tatry",
+   "country": "PL",
+   "km": 17.0,
+   "bedrooms": 6,
+   "guests": 13,
+   "status": "wolne",
+   "price": {
+    "main": 31030,
+    "main_src": "holidu.pl",
+    "reliable": false,
+    "all": [
+     {
+      "src": "holidu.pl",
+      "pln": 31030,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/8724941"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
+    }
+   ]
+  },
+  {
+   "id": "H030",
+   "name": "Domek Na Bugaju",
+   "location": "Czarny Dunajec",
+   "country": "PL",
+   "km": 17.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "wolne",
+   "price": {
+    "main": 20539,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 20539,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/36027477?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H031",
+   "name": "Willa Górska Pod Lasem",
+   "location": "Ludźmierz",
+   "country": "PL",
+   "km": 20.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 26747,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 26747,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/pod-lasem-ludzmierz.pl.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H032",
+   "name": "Dom Muminków Kotelnica",
+   "location": "Groń",
+   "country": "PL",
+   "km": 25.0,
+   "bedrooms": 6,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 20273,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 20273,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/bialka-willa.pl.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H033",
+   "name": "Dom Forest Prestige House",
+   "location": "Rzepiska (Bukowina Tatrzanska)",
+   "country": "PL",
+   "km": 25.0,
+   "bedrooms": 6,
+   "guests": 13,
+   "status": "wolne",
+   "price": {
+    "main": 27100,
+    "main_src": "udanypobyt.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "udanypobyt.pl",
+      "pln": 27100,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "UdanyPobyt",
+     "url": "https://udanypobyt.pl/dom-forest-prestige-house-bukowina-tatrzanska"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": "udanypobyt@gmail.com",
+   "flags": []
+  },
+  {
+   "id": "H034",
+   "name": "Bacówka-górska chata-Suchojadówka",
+   "location": "Nowy Targ",
+   "country": "PL",
+   "km": 27.0,
+   "bedrooms": 5,
+   "guests": 13,
+   "status": "wolne",
+   "price": {
+    "main": 10116,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 10116,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1648741393906220446?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H035",
+   "name": "Zameczek Falsztyn by Interhome",
+   "location": "Falsztyn",
+   "country": "PL",
+   "km": 27.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 18278,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 18278,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/19525879?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Limit dokładnie 10 osób – bez zapasu."
+    }
+   ]
+  },
+  {
+   "id": "H036",
+   "name": "Villa Falsztyn Holiday Home Falsztyn, Niedzica",
+   "location": "Niedzica",
+   "country": "PL",
+   "km": 27.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "wolne",
+   "price": {
+    "main": 70000,
+    "main_src": "noclegi.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "noclegi.pl",
+      "pln": 70000,
+      "reliable": true
+     },
+     {
+      "src": "nocowanie.pl",
+      "pln": 70000,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Noclegi.pl",
+     "url": "https://noclegi.pl/villa-falsztyn-holiday-home-falsztyn-niedzica?adults=10&checkin=2026-12-30&checkout=2027-01-06&children=0&rooms=1"
+    },
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/rezerwuj/1547169-villa-falsztyn-holiday-home-falsztyn-niedzica/"
+    }
+   ],
+   "phones": [
+    "+48 510 634 858"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H037",
+   "name": "Dom na wynajem - Bartoszówka",
+   "location": "Ochotnica Górna",
+   "country": "PL",
+   "km": 29.0,
+   "bedrooms": 6,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 24295,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 24295,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/53756731?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Limit dokładnie 10 osób – bez zapasu."
+    }
+   ]
+  },
+  {
+   "id": "H038",
+   "name": "Górska Ostoja",
+   "location": "Ochotnica Górna",
+   "country": "PL",
+   "km": 30.0,
+   "bedrooms": 10,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 11155,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 11155,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1698007151621685891?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Limit dokładnie 10 osób – bez zapasu."
+    }
+   ]
+  },
+  {
+   "id": "H039",
+   "name": "Osada Pod Modrzewiami",
+   "location": "Kluszkowce",
+   "country": "PL",
+   "km": 31.0,
+   "bedrooms": 5,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 30600,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 30600,
+      "reliable": true
+     },
+     {
+      "src": "holidu.pl",
+      "pln": 30600,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/osada-pod-modrzewiami.pl.html"
+    },
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/58152642"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H040",
+   "name": "PokojeTravel",
+   "location": "Skawa",
+   "country": "PL",
+   "km": 34.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 8084,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 8084,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1134611119099346543?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H041",
+   "name": "Willa Na Bali po góralsku Poręba Wielka",
+   "location": "Poręba Wielka",
+   "country": "PL",
+   "km": 34.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "wolne",
+   "price": {
+    "main": 140000,
+    "main_src": "noclegi.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "noclegi.pl",
+      "pln": 140000,
+      "reliable": true
+     },
+     {
+      "src": "nocowanie.pl",
+      "pln": 140000,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Noclegi.pl",
+     "url": "https://noclegi.pl/willa-na-bali-po-goralsku-poreba-wielka?adults=10&checkin=2026-12-30&checkout=2027-01-06&children=0&rooms=1"
+    },
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/rezerwuj/1562577-willa-na-bali-po-goralsku-poreba-wielka/"
+    }
+   ],
+   "phones": [
+    "+48 788 884 203"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H042",
+   "name": "PARTY HOUSE ogromny dom górski sylwester 2023/24",
+   "location": "Rabka-Zdrój",
+   "country": "PL",
+   "km": 35.0,
+   "bedrooms": 10,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 85090,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 85090,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/30761766?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H043",
+   "name": "Dom Zubrzyca gorna",
+   "location": "Zubrzyca Górna",
+   "country": "PL",
+   "km": 36.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 22124,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 22124,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1257400493428332250?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Limit dokładnie 10 osób – bez zapasu."
+    },
+    {
+     "level": "warn",
+     "text": "Mało łóżek wg Airbnb – sprawdź układ spania."
+    }
+   ]
+  },
+  {
+   "id": "H044",
+   "name": "Otulina Park Willa",
+   "location": "Krościenko nad Dunajcem",
+   "country": "PL",
+   "km": 38.0,
+   "bedrooms": 9,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": 20050,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 20050,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/16376844?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [
+    "+48 696 073 064"
+   ],
+   "website": "https://otulinapark.pl/",
+   "email": "otulinapark@gmail.com",
+   "flags": []
+  },
+  {
+   "id": "H045",
+   "name": "Ośrodek Otulina Park Willa 2",
+   "location": "Krościenko nad Dunajcem",
+   "country": "PL",
+   "km": 38.0,
+   "bedrooms": 9,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": 19865,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 19865,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/21334561?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [
+    "+48 696 073 064"
+   ],
+   "website": "https://otulinapark.pl/",
+   "email": "otulinapark@gmail.com",
+   "flags": []
+  },
+  {
+   "id": "H046",
+   "name": "Domek Cordon",
+   "location": "Zubrzyca Górna",
+   "country": "PL",
+   "km": 38.0,
+   "bedrooms": 8,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 42909,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 42909,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1181098897531362001?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H047",
+   "name": "TYLMANÓWKA - góralska chata w Pieninach",
+   "location": "Tylmanowa",
+   "country": "PL",
+   "km": 39.0,
+   "bedrooms": 6,
+   "guests": 17,
+   "status": "wolne",
+   "price": {
+    "main": 14000,
+    "main_src": "noclegowo.pl",
+    "reliable": false,
+    "all": [
+     {
+      "src": "noclegowo.pl",
+      "pln": 14000,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Noclegowo",
+     "url": "https://www.noclegowo.pl/tylmanowa/70586-tylmanowka-goralska-chata-w-pieninach/?dateFrom=2026-12-30&dateTo=2027-01-06&nbAdults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
+    }
+   ]
+  },
+  {
+   "id": "H048",
+   "name": "Willa Pod Sadami",
+   "location": "Szczawnica",
+   "country": "PL",
+   "km": 40.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "SPRZECZNE",
+   "price": {
+    "main": 9085,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 9085,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/8998448?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "bad",
+     "text": "Sprzeczne źródła – noclegi.pl: na 30.12–06.01 „wszystkie pokoje sprzedane”, Airbnb pokazuje wolne."
+    }
+   ]
+  },
+  {
+   "id": "H049",
+   "name": "Chatta Huba (jeden z 2 identycznych domow)",
+   "location": "Huba (gm. Czorsztyn)",
+   "country": "PL",
+   "km": 40.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "wolne",
+   "price": {
+    "main": 2329,
+    "main_src": "slowhop.com",
+    "reliable": false,
+    "all": [
+     {
+      "src": "slowhop.com",
+      "pln": 2329,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Slowhop",
+     "url": "https://slowhop.com/pl/miejsca/1930-chatta-huba.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Podejrzanie niska cena jak na Sylwestra – potwierdź u gospodarza."
+    },
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
+    }
+   ]
+  },
+  {
+   "id": "H050",
+   "name": "Villa Falsztyn Holiday Home",
+   "location": "Falsztyn (gm. Nowy Targ/Niedzica)",
+   "country": "PL",
+   "km": 45.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 70000,
+    "main_src": "nocowanie.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "nocowanie.pl",
+      "pln": 70000,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/rezerwuj/1547169-villa-falsztyn-holiday-home-falsztyn-niedzica/?adultsCount=10&childrenCount=0&guestCount=2&checkInDate=2026-12-30&checkOutDate=2027-01-06&flexDates=0"
+    }
+   ],
+   "phones": [
+    "+48 510 634 858"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H051",
+   "name": "Klimkówka Zawoja",
+   "location": "Zawoja",
+   "country": "PL",
+   "km": 49.0,
+   "bedrooms": 7,
+   "guests": 28,
+   "status": "wolne",
+   "price": {
+    "main": 15635,
+    "main_src": "nocowanie.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "nocowanie.pl",
+      "pln": 15635,
+      "reliable": true
+     },
+     {
+      "src": "noclegi.pl",
+      "pln": 16600,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Noclegi.pl",
+     "url": "https://noclegi.pl/klimkowka-zawoja?adults=10&checkin=2026-12-30&checkout=2027-01-06&children=0&rooms=1"
+    },
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/rezerwuj/1541750-klimkowka-zawoja/"
+    }
+   ],
+   "phones": [
+    "+48 730 826 721"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H052",
+   "name": "Willa Rytro. Dom w polskich górach.",
+   "location": "Rytro",
+   "country": "PL",
+   "km": 57.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": 26349,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "noclegowo.pl",
+      "pln": 6300,
+      "reliable": false
+     },
+     {
+      "src": "airbnb.pl",
+      "pln": 26349,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/24916537?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "Noclegowo",
+     "url": "https://www.noclegowo.pl/rytro/23098-apartamenty-i-pokoje-willa-rytro/?dateFrom=2026-12-30&dateTo=2027-01-06&nbAdults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H053",
+   "name": "Luksusowa willa górska z jacuzzi i ogrodem",
+   "location": "Myślenice",
+   "country": "PL",
+   "km": 58.0,
+   "bedrooms": 5,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 31525,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 31525,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/654026291646248327?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Mało łóżek wg Airbnb – sprawdź układ spania."
+    }
+   ]
+  },
+  {
+   "id": "H054",
+   "name": "Kwatery U Adama Zawoja",
+   "location": "Zawoja",
+   "country": "PL",
+   "km": 60.0,
+   "bedrooms": 5,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 16000,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 16000,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/kwatery-u-adama-zawoja.pl.html"
+    },
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/61791848"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H055",
+   "name": "Zarabie Residence",
+   "location": "Myślenice",
+   "country": "PL",
+   "km": 60.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 27783,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 27783,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/zarabie-residence.pl.html"
+    }
+   ],
+   "phones": [
+    "+48 788 026 669"
+   ],
+   "website": null,
+   "email": "zarabieresidence@gmail.com",
+   "flags": []
+  },
+  {
+   "id": "H056",
+   "name": "\"Dallas\" Piekny Pensjonat 40os+! Widoki na Gory!",
+   "location": "Myślenice",
+   "country": "PL",
+   "km": 63.0,
+   "bedrooms": 9,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 22050,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 22050,
+      "reliable": true
+     },
+     {
+      "src": "airbnb.pl",
+      "pln": 41695,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1398939723286326801?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/amp-restaurant-dallas.pl.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H057",
+   "name": "Spokojne Gniazdo Gilowice",
+   "location": "Gilowice",
+   "country": "PL",
+   "km": 66.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 24696,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 24696,
+      "reliable": true
+     },
+     {
+      "src": "booking.com",
+      "pln": 24696,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1771843190498564387?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/spokoje-gniazdo-gilowice.pl.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Limit dokładnie 10 osób – bez zapasu."
+    },
+    {
+     "level": "warn",
+     "text": "Mało łóżek wg Airbnb – sprawdź układ spania."
+    }
+   ]
+  },
+  {
+   "id": "H058",
+   "name": "Willa Solna Chata dla 18 os.grota solna, sauna",
+   "location": "Sól",
+   "country": "PL",
+   "km": 69.0,
+   "bedrooms": 6,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 21516,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 21516,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/612702442071675343?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H059",
+   "name": "Villa Tresna dom z widokiem na jezioro Żywieckie",
+   "location": "Tresna",
+   "country": "PL",
+   "km": 73.0,
+   "bedrooms": 9,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 28168,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 28168,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1699139616934047489?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H060",
+   "name": "Pokoje Marta",
+   "location": "Międzybrodzie Bialskie",
+   "country": "PL",
+   "km": 78.0,
+   "bedrooms": 6,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 25527,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 25527,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1161413079027660872?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H061",
+   "name": "Spacious House | 5 Bedrooms, Garden, Terrace and Parking (120 m² dom)",
+   "location": "Szczyrk",
+   "country": "PL",
+   "km": 81.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "HomeToGo",
+     "url": "https://www.hometogo.pl/rental/779b2c3db6067be2"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H062",
+   "name": "Dom 120m²",
+   "location": "Szczyrk",
+   "country": "PL",
+   "km": 81.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 19592,
+    "main_src": "holidu.pl",
+    "reliable": false,
+    "all": [
+     {
+      "src": "holidu.pl",
+      "pln": 19592,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/68530976"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
+    }
+   ]
+  },
+  {
+   "id": "H063",
+   "name": "Olimpijska 96 | Duży Dom | Parking | 5 Sypialni",
+   "location": "Szczyrk",
+   "country": "PL",
+   "km": 82.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 21047,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 21047,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1675341226024338140?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H064",
+   "name": "Willa Świerkowa 19 Szczyrk",
+   "location": "Szczyrk",
+   "country": "PL",
+   "km": 82.0,
+   "bedrooms": 8,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": 35000,
+    "main_src": "nocowanie.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "nocowanie.pl",
+      "pln": 35000,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/rezerwuj/1563629-willa-swierkowa-19-szczyrk/"
+    }
+   ],
+   "phones": [
+    "+48 730 340 412"
+   ],
+   "website": null,
+   "email": "swierkowa19@gmail.com",
+   "flags": []
+  },
+  {
+   "id": "H065",
+   "name": "Willa Istebna Pełna Chata II",
+   "location": "Istebna",
+   "country": "PL",
+   "km": 83.0,
+   "bedrooms": 6,
+   "guests": 21,
+   "status": "wolne",
+   "price": {
+    "main": 35000,
+    "main_src": "nocowanie.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "nocowanie.pl",
+      "pln": 35000,
+      "reliable": true
+     },
+     {
+      "src": "booking.com",
+      "pln": 51848,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/istebna-pelna-chata-ii.pl.html"
+    },
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/rezerwuj/1563488-willa-istebna-pelna-chata-ii/"
+    }
+   ],
+   "phones": [
+    "+48 791 111 390"
+   ],
+   "website": null,
+   "email": "agnieszka_rokosa@wp.pl",
+   "flags": []
+  },
+  {
+   "id": "H066",
+   "name": "Folkowy Dom dla 15 osób z sauną (Szczyrk)",
+   "location": "Szczyrk",
+   "country": "PL",
+   "km": 83.0,
+   "bedrooms": 7,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 12411,
+    "main_src": "noclegowo.pl",
+    "reliable": false,
+    "all": [
+     {
+      "src": "noclegowo.pl",
+      "pln": 12411,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Noclegowo",
+     "url": "https://www.noclegowo.pl/szczyrk/74568-folkowy-dom-dla-15-osob-z-sauna-i-grillowiskiem-dream-apart/?dateFrom=2026-12-30&dateTo=2027-01-06&nbAdults=10"
+    }
+   ],
+   "phones": [
+    "+48 33 471 21 31",
+    "+48 579 777 184"
+   ],
+   "website": "https://dreamapart.pl",
+   "email": "info@dreamapart.pl",
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
+    }
+   ]
+  },
+  {
+   "id": "H067",
+   "name": "Chata Odskocznia Wisła",
+   "location": "Wisła",
+   "country": "PL",
+   "km": 83.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 70175,
+    "main_src": "nocowanie.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "nocowanie.pl",
+      "pln": 70175,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/rezerwuj/1469772-chata-odskocznia-wisla/"
+    }
+   ],
+   "phones": [
+    "+48 698 198 135"
+   ],
+   "website": null,
+   "email": "chataodskocznia@gmail.com",
+   "flags": []
+  },
+  {
+   "id": "H068",
+   "name": "Fałata 208 | Wyjątkowy Dom | Ogród | Parking",
+   "location": "Bystra",
+   "country": "PL",
+   "km": 84.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 28092,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 28092,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1447585955527853765?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": [
+    {
+     "level": "warn",
+     "text": "Mało łóżek wg Airbnb – sprawdź układ spania."
+    }
+   ]
+  },
+  {
+   "id": "H069",
+   "name": "BIESIADA Korbielów",
+   "location": "Korbielów",
+   "country": "PL",
+   "km": 85.0,
+   "bedrooms": 7,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 29500,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 29500,
+      "reliable": true
+     },
+     {
+      "src": "holidu.pl",
+      "pln": 29500,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/biesiada-korbielow.pl.html"
+    },
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/67583960"
+    }
+   ],
+   "phones": [
+    "+48 608 028 215"
+   ],
+   "website": null,
+   "email": "biesiada.korbielow@gmail.com",
+   "flags": []
+  },
+  {
+   "id": "H070",
+   "name": "Majóvka Wisła",
+   "location": "Wisła",
+   "country": "PL",
+   "km": 85.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 17700,
+    "main_src": "nocowanie.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "nocowanie.pl",
+      "pln": 17700,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/rezerwuj/1503262-majovka-wisla/"
+    }
+   ],
+   "phones": [
+    "+48 791 792 658"
+   ],
+   "website": null,
+   "email": "kanah84@tlen.pl",
+   "flags": []
+  },
+  {
+   "id": "H071",
+   "name": "Przystanek Beskidy - 2 domy Górskie,  5 sypialni",
+   "location": "Brenna",
+   "country": "PL",
+   "km": 86.0,
+   "bedrooms": 5,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 25078,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 25078,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/38840161?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/kotarz-base-camp.pl.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H072",
+   "name": "Summit View Wisła",
+   "location": "Wisła",
+   "country": "PL",
+   "km": 88.0,
+   "bedrooms": 7,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 16956,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 16956,
+      "reliable": true
+     },
+     {
+      "src": "booking.com",
+      "pln": 21360,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/1619791780874587446?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/summit-view-wisla.pl.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H073",
+   "name": "Apartamenty i dom Wichrowe Wzgórze Brenna",
+   "location": "Brenna",
+   "country": "PL",
+   "km": 89.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 141330,
+    "main_src": "nocowanie.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "nocowanie.pl",
+      "pln": 141330,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/rezerwuj/1457318-apartamenty-i-dom-wichrowe-wzgorze-brenna/"
+    }
+   ],
+   "phones": [
+    "+48 509 337 091"
+   ],
+   "website": null,
+   "email": "brenna@kgg.pl",
+   "flags": []
+  },
+  {
+   "id": "H074",
+   "name": "Barnilka House Klimkówka",
+   "location": "Klimkówka",
+   "country": "PL",
+   "km": 95.0,
+   "bedrooms": 8,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 25740,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 25740,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/barnilka-house.pl.html"
+    }
+   ],
+   "phones": [
+    "+48 508 900 072"
+   ],
+   "website": null,
+   "email": "reservation@barnilka.com",
+   "flags": []
+  },
+  {
+   "id": "H075",
+   "name": "Dom pod Jaworem",
+   "location": "Rajcza",
+   "country": "PL",
+   "km": 100.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 22697,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 22697,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/dom-pod-jaworem.pl.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H076",
+   "name": "Rajskie Wzgórze",
+   "location": "Rajcza",
+   "country": "PL",
+   "km": 100.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 20181,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 20181,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/rajskie-wzgorze.pl.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H077",
+   "name": "Willa Gabriel",
+   "location": "Krynica-Zdrój",
+   "country": "PL",
+   "km": 100.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 33047,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 33047,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/willa-gabriel.pl.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H078",
+   "name": "House under the Sky - cabin in the heart of Tatras",
+   "location": "Ždiar",
+   "country": "SK",
+   "km": 23.0,
+   "bedrooms": 5,
+   "guests": null,
+   "status": "wolne",
+   "price": {
+    "main": 20839,
+    "main_src": "airbnb",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb",
+      "pln": 20839,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.com/rooms/19967723?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H079",
+   "name": "Chata Gejdoš",
+   "location": "Tvrdošín",
+   "country": "SK",
+   "km": 24.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 4816,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 4816,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-gejdos"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H080",
+   "name": "Chaty Cézar a Leon v Zuberci",
+   "location": "Zuberec",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 7,
+   "guests": 20,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chaty-cezar-a-leon-v-zuberci"
+    }
+   ],
+   "phones": [
+    "+421 903 326 848",
+    "+421 904 498 343"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H081",
+   "name": "Chata Bora",
+   "location": "Veľká Franková",
+   "country": "SK",
+   "km": 26.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-bora"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H082",
+   "name": "Chata Frankovky",
+   "location": "Malá Franková",
+   "country": "SK",
+   "km": 26.0,
+   "bedrooms": 5,
+   "guests": 17,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-frankovky"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H083",
+   "name": "Chata Goralečka",
+   "location": "Jezersko",
+   "country": "SK",
+   "km": 28.0,
+   "bedrooms": 6,
+   "guests": 20,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-goralecka"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H084",
+   "name": "Chalupa Majka",
+   "location": "Štrba",
+   "country": "SK",
+   "km": 29.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": 6020,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 6020,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chalupa-majka-strba"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H085",
+   "name": "Penzión Chata Felícia",
+   "location": "Stará Lesná",
+   "country": "SK",
+   "km": 30.0,
+   "bedrooms": 14,
+   "guests": 42,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/penzion-chata-felicia"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H086",
+   "name": "Relax Tatras",
+   "location": "Stará Lesná",
+   "country": "SK",
+   "km": 31.0,
+   "bedrooms": 6,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 16254,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 16254,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/relax-tatras"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H087",
+   "name": "Chata Benevyta",
+   "location": "Bobrovec",
+   "country": "SK",
+   "km": 31.0,
+   "bedrooms": 6,
+   "guests": 29,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/benevyta"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H088",
+   "name": "Kukana and Kuku Chalets Pool, Sauna and Jacuzzi ",
+   "location": "Stará Lesná",
+   "country": "SK",
+   "km": 31.0,
+   "bedrooms": 6,
+   "guests": null,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.com/rooms/1256682800253259866?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H089",
+   "name": "Borové Hideaway",
+   "location": "Malé Borové",
+   "country": "SK",
+   "km": 32.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/borove-hideaway"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H090",
+   "name": "Dovolenkový dom Teta",
+   "location": "Liptovské Beharovce",
+   "country": "SK",
+   "km": 32.0,
+   "bedrooms": 8,
+   "guests": 22,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/dovolenkovy-dom-teta"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H091",
+   "name": "Teta 24",
+   "location": "Liptovské Beharovce",
+   "country": "SK",
+   "km": 32.0,
+   "bedrooms": 6,
+   "guests": null,
+   "status": "wolne",
+   "price": {
+    "main": 25963,
+    "main_src": "airbnb",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb",
+      "pln": 25963,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.com/rooms/1038962920360152787?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H092",
+   "name": "Chata Maja",
+   "location": "Námestovo",
+   "country": "SK",
+   "km": 33.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-maja"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H093",
+   "name": "Chata Červený Javor",
+   "location": "Námestovo",
+   "country": "SK",
+   "km": 34.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-cerveny-javor"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H094",
+   "name": "Villa Filip",
+   "location": "Veľká Lomnica",
+   "country": "SK",
+   "km": 35.0,
+   "bedrooms": 8,
+   "guests": 20,
+   "status": "wolne",
+   "price": {
+    "main": 21070,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 21070,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/villa-filip"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H095",
+   "name": "Jánošíkova chata Orava",
+   "location": "Námestovo",
+   "country": "SK",
+   "km": 35.0,
+   "bedrooms": 7,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/janosikova-chata-orava"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H096",
+   "name": "Villa DAM",
+   "location": "Liptovský Mikuláš",
+   "country": "SK",
+   "km": 36.0,
+   "bedrooms": 6,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/villa-dam"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H097",
+   "name": "Chalet Liptov Izipovce",
+   "location": "Ižipovce",
+   "country": "SK",
+   "km": 38.0,
+   "bedrooms": 5,
+   "guests": null,
+   "status": "wolne",
+   "price": {
+    "main": 39555,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 39555,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.com/rooms/660795445858740480?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/660795445858740480?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H098",
+   "name": "Rekreačný dom Family Tree",
+   "location": "Liptovský Mikuláš",
+   "country": "SK",
+   "km": 38.0,
+   "bedrooms": 8,
+   "guests": 21,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/rekreacny-dom-family-tree"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H099",
+   "name": "Big house perfect for Groups near Jasna • Biliard ",
+   "location": "Liptovský Mikuláš",
+   "country": "SK",
+   "km": 38.0,
+   "bedrooms": 5,
+   "guests": null,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.com/rooms/1724122989832162597?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H100",
+   "name": "Drevenica pod Zvonicou",
+   "location": "Demänovská Dolina",
+   "country": "SK",
+   "km": 40.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/drevenica-pod-zvonicou"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H101",
+   "name": "Chalet Vista Biohacking & Jacuzzi",
+   "location": "Demänovská Dolina",
+   "country": "SK",
+   "km": 40.0,
+   "bedrooms": 6,
+   "guests": 16,
+   "status": "wolne",
+   "price": {
+    "main": 24080,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 24080,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chalet-vista-biohacking-and-jacuzzi"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H102",
+   "name": "Štýlová drevenica Šafrán",
+   "location": "Nižná Boca",
+   "country": "SK",
+   "km": 41.0,
+   "bedrooms": 6,
+   "guests": 25,
+   "status": "wolne",
+   "price": {
+    "main": 20640,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 20640,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/stylova-drevenica-safran"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H103",
+   "name": "Villa Kasandra in Liptove",
+   "location": "Vlachy",
+   "country": "SK",
+   "km": 42.0,
+   "bedrooms": 5,
+   "guests": null,
+   "status": "wolne",
+   "price": {
+    "main": 30208,
+    "main_src": "airbnb",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb",
+      "pln": 30208,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.com/rooms/17793819?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H104",
+   "name": "Chata MROŽ",
+   "location": "Demänovská Dolina",
+   "country": "SK",
+   "km": 43.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-mroz"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H105",
+   "name": "Chata Elsa",
+   "location": "Dolný Kubín",
+   "country": "SK",
+   "km": 49.0,
+   "bedrooms": 5,
+   "guests": 23,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-elsa"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H106",
+   "name": "DomPodNiebem",
+   "location": "Zdziar",
+   "country": "SK",
+   "km": 50.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "wolne",
+   "price": {
+    "main": 16583,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 16583,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/sk/dompodniebem.pl.html"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H107",
+   "name": "SKRI Villa Ružbachy",
+   "location": "Drużbaki Wyżne",
+   "country": "SK",
+   "km": 55.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": 34864,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "booking.com",
+      "pln": 34864,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/sk/skri-villa-ruzbachy-vysne-ruzbachy.pl.html"
+    },
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/skri-villa-ruzbachy"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H108",
+   "name": "Veľká chata pod Chopkom",
+   "location": "Horná Lehota (okres Brezno)",
+   "country": "SK",
+   "km": 55.0,
+   "bedrooms": 8,
+   "guests": 36,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/velka-chata-pod-chopkom"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H109",
+   "name": "Chata Malino",
+   "location": "Ružomberok",
+   "country": "SK",
+   "km": 56.0,
+   "bedrooms": 6,
+   "guests": 17,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-malino"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H110",
+   "name": "Chalet George",
+   "location": "Zázrivá",
+   "country": "SK",
+   "km": 58.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chalet-george"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H111",
+   "name": "Chata Šuštiak",
+   "location": "Terchová",
+   "country": "SK",
+   "km": 64.0,
+   "bedrooms": 5,
+   "guests": 19,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-sustiak"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H112",
+   "name": "Drevenica Zuzana",
+   "location": "Terchová",
+   "country": "SK",
+   "km": 65.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/drevenica-zuzana-terchova"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H113",
+   "name": "Dom Horskej služby",
+   "location": "Terchová",
+   "country": "SK",
+   "km": 65.0,
+   "bedrooms": 9,
+   "guests": 30,
+   "status": "wolne",
+   "price": {
+    "main": 19565,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 19565,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/dom-horskej-sluzby"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H114",
+   "name": "Novopostavená chata Kubo",
+   "location": "Hnilčík",
+   "country": "SK",
+   "km": 66.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/novopostavena-chata-kubo"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H115",
+   "name": "Chata Trusalka",
+   "location": "Turany",
+   "country": "SK",
+   "km": 68.0,
+   "bedrooms": 8,
+   "guests": 31,
+   "status": "wolne",
+   "price": {
+    "main": 18060,
+    "main_src": "megaubytovanie.sk",
+    "reliable": true,
+    "all": [
+     {
+      "src": "megaubytovanie.sk",
+      "pln": 18060,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-trusalka"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H116",
+   "name": "Royal Chalet Donovaly",
+   "location": "Donovaly",
+   "country": "SK",
+   "km": 71.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/royal-chalet-donovaly"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H117",
+   "name": "Vila Ambiente",
+   "location": "Donovaly",
+   "country": "SK",
+   "km": 72.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/vila-ambiente"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H118",
+   "name": "Vila Lampášik",
+   "location": "Donovaly",
+   "country": "SK",
+   "km": 72.0,
+   "bedrooms": 8,
+   "guests": 19,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/vila-lampasik"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H119",
+   "name": "Casa Blanca",
+   "location": "Spišské Vlachy",
+   "country": "SK",
+   "km": 74.0,
+   "bedrooms": 7,
+   "guests": 21,
+   "status": "wolne",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/casa-blanca"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H120",
+   "name": "Domek na wylacznosc Rochowa Buznica",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 1.0,
+   "bedrooms": 7,
+   "guests": 21,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/66944208"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H121",
+   "name": "Zasypane Premium House & Sauna in Zakopane by Renters Prestige",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 1.0,
+   "bedrooms": 6,
+   "guests": 15,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/65518635"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H122",
+   "name": "Willa Storczyk Sauna&Jacuzzi Zakopane Centrum",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 1.0,
+   "bedrooms": 5,
+   "guests": 16,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/51066044"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H123",
+   "name": "Dom w Górach SPA",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 1.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/53211241"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H124",
+   "name": "Bacówka Chalet",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 1.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/64078716"
+    },
+    {
+     "label": "ZakopaneDomki",
+     "url": "https://zakopanedomki.com/bacowka-chalet.html"
+    }
+   ],
+   "phones": [
+    "+48 501 623 550"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H125",
+   "name": "Goralskie Domki w Centrum (2 x 6 sypialni)",
+   "location": "Zakopane (Wojciecha Brzegi 2)",
+   "country": "PL",
+   "km": 1.0,
+   "bedrooms": 6,
+   "guests": 14,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "ZakopaneDomki",
+     "url": "https://zakopanedomki.com/goralskie-domki-w-centrum-6-sypialni.html"
+    }
+   ],
+   "phones": [
+    "+48 502 610 248"
+   ],
+   "website": "http://www.goralskie-domki.pl",
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H126",
+   "name": "Willa Elżbiecina Luxury Residence & SPA",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 2.0,
+   "bedrooms": 8,
+   "guests": 19,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/37701869"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H127",
+   "name": "Rezydencja Gubałówka sauna widok",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 2.0,
+   "bedrooms": 7,
+   "guests": 15,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/13151997"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H128",
+   "name": "Golden Villa Panorama Zakopane",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 2.0,
+   "bedrooms": 6,
+   "guests": 26,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/63619944"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H129",
+   "name": "DOM Krzeptówki 133",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 3.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/53283465"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H130",
+   "name": "Chata Walczakow",
+   "location": "Zakopane (Zwijacze)",
+   "country": "PL",
+   "km": 3.0,
+   "bedrooms": 11,
+   "guests": 29,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "ZakopaneDomki",
+     "url": "https://zakopanedomki.com/chata-walczakow-dom-z-basenem.html"
+    }
+   ],
+   "phones": [
+    "+48 600 188 770"
+   ],
+   "website": "http://www.chatawalczakow.pl",
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H131",
+   "name": "Domek 30/osobowy (Gawlaki)",
+   "location": "Zakopane (Gawlaki)",
+   "country": "PL",
+   "km": 3.0,
+   "bedrooms": 10,
+   "guests": 30,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "w-zakopane",
+     "url": "https://w-zakopane.pl/listing/domek-20-osobowy/"
+    }
+   ],
+   "phones": [
+    "+48 502 714 691"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H132",
+   "name": "Kurort Wypoczynkowy Gabi",
+   "location": "Zakopane (Stachonie)",
+   "country": "PL",
+   "km": 3.0,
+   "bedrooms": 8,
+   "guests": 28,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "w-zakopane",
+     "url": "https://w-zakopane.pl/listing/kurort-wypoczynkowy-gabi/"
+    }
+   ],
+   "phones": [
+    "+48 502 714 691"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H133",
+   "name": "ZAKOHOME- Willa Miła Moja",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 4.0,
+   "bedrooms": 6,
+   "guests": 17,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/46478356"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H134",
+   "name": "Willa Jaszczurówka",
+   "location": "Zakopane",
+   "country": "PL",
+   "km": 4.0,
+   "bedrooms": 5,
+   "guests": 17,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/48181848"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H135",
+   "name": "Cisza nad Doliną",
+   "location": "Zakopane (Harenda)",
+   "country": "PL",
+   "km": 4.0,
+   "bedrooms": 5,
+   "guests": 11,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "ciszanaddolina.pl",
+     "url": "http://ciszanaddolina.pl/index.php/oferta"
+    },
+    {
+     "label": "ZakopaneDomki",
+     "url": "https://zakopanedomki.com/domek-cisza-nad-dolina.html"
+    }
+   ],
+   "phones": [
+    "+48 604 448 770"
+   ],
+   "website": "http://www.ciszanaddolina.pl",
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H136",
+   "name": "Dom Widokowy Los",
+   "location": "Zakopane (Losiowki)",
+   "country": "PL",
+   "km": 5.0,
+   "bedrooms": 7,
+   "guests": 22,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "ZakopaneDomki",
+     "url": "https://zakopanedomki.com/domek-los.html"
+    }
+   ],
+   "phones": [
+    "+48 883 653 382"
+   ],
+   "website": "http://www.domek-los.pl",
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H137",
+   "name": "Willa Dream (Domki z prywatnym mini spa, Poronin)",
+   "location": "Poronin",
+   "country": "PL",
+   "km": 7.0,
+   "bedrooms": 7,
+   "guests": 18,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Noclegowo",
+     "url": "https://www.noclegowo.pl/poronin/14529-willa-jedrus/?dateFrom=2026-12-30&dateTo=2027-01-06&nbAdults=10"
+    }
+   ],
+   "phones": [
+    "+48 606 436 626"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H138",
+   "name": "Osada Na Brzyzku (Poronin)",
+   "location": "Poronin",
+   "country": "PL",
+   "km": 7.0,
+   "bedrooms": 9,
+   "guests": 20,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "e-turysta",
+     "url": "https://e-turysta.pl/osada-na-brzyzku-poronin-123427.html"
+    }
+   ],
+   "phones": [
+    "+48 668 550 910"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H139",
+   "name": "Willa PREMIUM 17/os",
+   "location": "Koscielisko",
+   "country": "PL",
+   "km": 8.0,
+   "bedrooms": 6,
+   "guests": 17,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "w-zakopane",
+     "url": "https://w-zakopane.pl/listing/willa-premium-17-os/"
+    }
+   ],
+   "phones": [
+    "+48 502 714 691"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H140",
+   "name": "Chalupki pod Giewontem (domki 5-sypialniowe)",
+   "location": "Murzasichle",
+   "country": "PL",
+   "km": 9.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "ZakopaneDomki",
+     "url": "https://zakopanedomki.com/chalupki-pod-giewontem.html"
+    }
+   ],
+   "phones": [
+    "+48 660 417 817"
+   ],
+   "website": "https://www.chalupkipodgiewontem.pl",
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H141",
+   "name": "Dom Goralski Przystanek",
+   "location": "Bialy Dunajec",
+   "country": "PL",
+   "km": 12.0,
+   "bedrooms": 5,
+   "guests": 19,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "ZakopaneDomki",
+     "url": "https://zakopanedomki.com/dom-goralski-przystanek.html"
+    }
+   ],
+   "phones": [
+    "+48 602 749 292"
+   ],
+   "website": "https://www.goralskiprzystanek.com",
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H142",
+   "name": "Art House Residence - Grand Luxury 350 m2 Chalet",
+   "location": "Białka Tatrzańska",
+   "country": "PL",
+   "km": 15.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Noclegowo",
+     "url": "https://www.noclegowo.pl/bialka-tatrzanska/83686-art-house-residence-grand-luxury-350m2-chalet-mountain-ski/?dateFrom=2026-12-30&dateTo=2027-01-06&nbAdults=10"
+    }
+   ],
+   "phones": [
+    "+48 509 945 509"
+   ],
+   "website": "http://www.arthouseresidence.pl",
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H143",
+   "name": "Willa Misiowa Chata",
+   "location": "Czarna Gora k. Bialki",
+   "country": "PL",
+   "km": 25.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "ZakopaneDomki",
+     "url": "https://zakopanedomki.com/domek-misiowa-chata.html"
+    }
+   ],
+   "phones": [
+    "+48 737 461 137"
+   ],
+   "website": "http://www.willamisiowachata.pl",
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H144",
+   "name": "Całoroczne Domki w Górach Aleksander (Niedzica)",
+   "location": "Niedzica",
+   "country": "PL",
+   "km": 45.0,
+   "bedrooms": 5,
+   "guests": 13,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "e-turysta",
+     "url": "https://e-turysta.pl/caloroczne-domki-w-gorach-aleksander-niedzica-141994.html"
+    }
+   ],
+   "phones": [
+    "+48 519 641 418",
+    "+48 500 413 503"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H145",
+   "name": "Victoria - domek do wynajęcia (Dursztyn)",
+   "location": "Dursztyn (profil: Białka Tatrzańska)",
+   "country": "PL",
+   "km": 45.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/noclegi/bialka_tatrzanska/domki/161348/"
+    }
+   ],
+   "phones": [
+    "+48 697 727 076"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H146",
+   "name": "Chałupa z widokiem w górach",
+   "location": "Zawoja",
+   "country": "PL",
+   "km": 51.0,
+   "bedrooms": 5,
+   "guests": 19,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Holidu",
+     "url": "https://www.holidu.pl/d/37029885"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H147",
+   "name": "Dom na Szewcowej Polanie (Pewel Wielka)",
+   "location": "Pewel Wielka (Żywiec)",
+   "country": "PL",
+   "km": 58.0,
+   "bedrooms": 8,
+   "guests": 16,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/noclegi/zywiec/domki/230048/"
+    }
+   ],
+   "phones": [
+    "+48 573 800 980"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H148",
+   "name": "Dom nad Popradem (Myślec)",
+   "location": "Myślec (Stary Sącz)",
+   "country": "PL",
+   "km": 59.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/noclegi/piwniczna_zdroj/domki/162011/"
+    }
+   ],
+   "phones": [
+    "+48 600 261 025"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H149",
+   "name": "Świstakówka (Szczyrk)",
+   "location": "Szczyrk",
+   "country": "PL",
+   "km": 81.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Noclegowo",
+     "url": "https://www.noclegowo.pl/szczyrk/80246-swistakowka/?dateFrom=2026-12-30&dateTo=2027-01-06&nbAdults=10"
+    }
+   ],
+   "phones": [
+    "+48 502 357 493",
+    "+48 511 320 888"
+   ],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H150",
+   "name": "Chata Adamec",
+   "location": "Ždiar",
+   "country": "SK",
+   "km": 22.0,
+   "bedrooms": 5,
+   "guests": 17,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-adamec"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H151",
+   "name": "Chalupa JOZEF na Orave",
+   "location": "Habovka",
+   "country": "SK",
+   "km": 24.0,
+   "bedrooms": 5,
+   "guests": 16,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chalupa-jozef-na-orave"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H152",
+   "name": "Chata U Jastraba",
+   "location": "Východná",
+   "country": "SK",
+   "km": 27.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-u-jastraba"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H153",
+   "name": "Chata Nicol",
+   "location": "Lendak",
+   "country": "SK",
+   "km": 29.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-nicol"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H154",
+   "name": "Chata u Šipa",
+   "location": "Dolný Kubín",
+   "country": "SK",
+   "km": 50.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-u-sipa"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H155",
+   "name": "Chata Frieda",
+   "location": "Smižany",
+   "country": "SK",
+   "km": 57.0,
+   "bedrooms": 5,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-frieda"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H156",
+   "name": "Chata Kriváň",
+   "location": "Terchová",
+   "country": "SK",
+   "km": 66.0,
+   "bedrooms": 5,
+   "guests": 10,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/chata-krivan"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H157",
+   "name": "Rekreačný dom pod kostolom",
+   "location": "Liptovské Revúce",
+   "country": "SK",
+   "km": 70.0,
+   "bedrooms": 9,
+   "guests": 24,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Megaubytovanie",
+     "url": "https://www.megaubytovanie.sk/rekreacny-dom-pod-kostolom"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "email": null,
+   "flags": []
+  },
+  {
+   "id": "H158",
+   "name": "Bajkowa Chata Folk. Chalet No 1 z balią z jacuzzi.",
+   "location": "Murzasichle",
+   "country": "PL",
+   "km": 6.0,
+   "bedrooms": 6,
+   "guests": 15,
+   "status": "SPRZECZNE",
+   "price": {
+    "main": 37456,
+    "main_src": "airbnb.pl",
+    "reliable": true,
+    "all": [
+     {
+      "src": "airbnb.pl",
+      "pln": 37456,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "bajkowachata.pl",
+     "url": "https://bajkowachata.pl/rezerwacja"
+    },
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/629703?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "ZakopaneDomki",
+     "url": "https://zakopanedomki.com/bajkowa-chata.html"
+    }
+   ],
+   "phones": [
+    "+48 515 616 260",
+    "+48 500 570 366"
+   ],
+   "website": "https://bajkowachata.pl",
+   "email": "info@bajkowachata.pl, rezerwacje@bajkowachata.pl",
+   "flags": [
+    {
+     "level": "bad",
+     "text": "Sprzeczne źródła – wyszukiwarka właściciela (Hotres) nie pokazała domu Folk w terminie, Airbnb pokazuje wolne."
+    }
+   ]
+  },
+  {
+   "id": "H159",
+   "name": "Chałupki pod Giewontem - Domek nr 4/5/6 (Murzasichle)",
+   "location": "Murzasichle",
+   "country": "PL",
+   "km": 7.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "SPRZECZNE",
+   "price": {
+    "main": 17400,
+    "main_src": "noclegowo.pl",
+    "reliable": false,
+    "all": [
+     {
+      "src": "noclegowo.pl",
+      "pln": 17400,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "chalupkipodgiewontem.pl",
+     "url": "https://www.chalupkipodgiewontem.pl/rezerwacja"
+    },
+    {
+     "label": "Noclegowo",
+     "url": "https://www.noclegowo.pl/murzasichle/70132-chalupki-pod-giewontem-goralskie-domki-z-pieknym-widokiem-na-tatry/?dateFrom=2026-12-30&dateTo=2027-01-06&nbAdults=10"
+    },
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/noclegi/zakopane/domki/68872/"
+    }
+   ],
+   "phones": [
+    "+48 660 417 817"
+   ],
+   "website": "https://www.chalupkipodgiewontem.pl",
+   "email": "chalupkipodgiewontem@wp.pl",
+   "flags": [
+    {
+     "level": "bad",
+     "text": "Sprzeczne źródła – kalendarz właściciela (Hotres): domki 4–6 zajęte 29.12–03.01, noclegowo pokazuje wolne."
+    },
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
+    }
+   ]
+  },
+  {
+   "id": "H160",
+   "name": "Tybet Domki i Apartamenty",
+   "location": "Bukowina Tatrzańska",
+   "country": "PL",
+   "km": 14.0,
+   "bedrooms": 5,
+   "guests": 14,
+   "status": "SPRZECZNE",
+   "price": {
+    "main": 19383,
+    "main_src": "booking.com",
+    "reliable": true,
+    "all": [
+     {
+      "src": "noclegowo.pl",
+      "pln": 7700,
+      "reliable": false
+     },
+     {
+      "src": "booking.com",
+      "pln": 19383,
+      "reliable": true
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Booking",
+     "url": "https://www.booking.com/hotel/pl/domki-bukowina.pl.html"
+    },
+    {
+     "label": "Noclegowo",
+     "url": "https://www.noclegowo.pl/bukowina-tatrzanska/72520-tybet-domki-i-apartamenty/?dateFrom=2026-12-30&dateTo=2027-01-06&nbAdults=10"
+    },
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/rezerwuj/1152793-domki-i-apartamenty-tybet-bukowina-tatrzanska/?adultsCount=10&childrenCount=0&guestCount=2&checkInDate=2026-12-30&checkOutDate=2027-01-06&flexDates=0"
+    }
+   ],
+   "phones": [
+    "+48 508 755 595"
+   ],
+   "website": null,
+   "email": "infotybet@gmail.com",
+   "flags": [
+    {
+     "level": "bad",
+     "text": "Sprzeczne źródła – nocowanie.pl: obiekt niedostępny w terminie, Booking/noclegowo pokazują wolny domek."
+    }
+   ]
+  },
+  {
+   "id": "H161",
+   "name": "Villa Gorsky (dom 6-sypialniowy)",
+   "location": "Poronin",
+   "country": "PL",
+   "km": 15.0,
+   "bedrooms": 6,
+   "guests": 22,
+   "status": "SPRZECZNE",
+   "price": {
+    "main": 5091,
+    "main_src": "slowhop.com",
+    "reliable": false,
+    "all": [
+     {
+      "src": "slowhop.com",
+      "pln": 5091,
+      "reliable": false
+     }
+    ]
+   },
+   "links": [
+    {
+     "label": "Slowhop",
+     "url": "https://slowhop.com/pl/miejsca/281-villa-gorsky.html"
+    },
+    {
+     "label": "villagorsky.pl",
+     "url": "https://villagorsky.pl/rezerwacja/"
+    },
+    {
+     "label": "ZakopaneDomki",
+     "url": "https://zakopanedomki.com/luxury-chalets-villa-gorsky.html"
+    }
+   ],
+   "phones": [
+    "+48 697 736 784"
+   ],
+   "website": "https://villagorsky.pl",
+   "email": "villa@gorsky.pl",
+   "flags": [
+    {
+     "level": "bad",
+     "text": "Sprzeczne źródła – kalendarz właściciela (Beds24): 27–31.12 zajęte, Slowhop pokazuje wolne."
+    },
+    {
+     "level": "warn",
+     "text": "Podejrzanie niska cena jak na Sylwestra – potwierdź u gospodarza."
+    },
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
+    }
+   ]
+  }
+ ],
+ "olx_sent": [
+  {
+   "name": "Dom na wyłączność Tatry – jacuzzi, sauna, Czarna Góra",
+   "location": "Czarna Góra",
+   "bedrooms": 5,
+   "url": "https://www.olx.pl/d/oferta/dom-na-wylacznosc-tatry-jacuzzi-sauna-czarna-gora-CID1816-ID1cHDOL.html"
+  },
+  {
+   "name": "Dom 20-25 osób. Poronin. Możliwość wyżywienia. Wolne święta",
+   "location": "Gliczarów Górny",
+   "bedrooms": 5,
+   "url": "https://www.olx.pl/d/oferta/dom-20-25-osob-poronin-mozliwosc-wyzywienia-wolne-swieta-CID1816-ID1cKFMx.html"
+  },
+  {
+   "name": "Sylwester w górach dla grupy, dom na wyłączność",
+   "location": "Bukowina Tatrzańska",
+   "bedrooms": 10,
+   "url": "https://www.olx.pl/d/oferta/sylwester-w-gorach-dla-grupy-dom-na-wylacznosc-CID1816-ID1cuixB.html"
+  },
+  {
+   "name": "Domek w Górach do 20 osób, Eksluzywna Willa z Bali, Sauna, Balia z jacuzii, widok na góry,",
+   "location": "Zawoja",
+   "bedrooms": 6,
+   "url": "https://www.olx.pl/d/oferta/domek-w-gorach-do-20-osob-eksluzywna-willa-z-bali-sauna-balia-z-jacuzii-widok-na-gory-spa-o-zawoja-babia-gora-CID1816-ID1cmSaP.html"
+  },
+  {
+   "name": "Apartamenty, pokoje w Korbielowie blisko stoków narciarskich",
+   "location": "Korbielów",
+   "bedrooms": 6,
+   "url": "https://www.olx.pl/d/oferta/apartamenty-pokoje-w-korbielowie-blisko-stokow-narciarskich-CID1816-ID1cFvB8.html"
+  },
+  {
+   "name": "Spokojne Gniazdo wakacyjny dom/ BASEN/BALIA/JACUZZI/SAUNA/BILARD",
+   "location": "Gilowice",
+   "bedrooms": 5,
+   "url": "https://www.olx.pl/d/oferta/spokojne-gniazdo-wakacyjny-dom-basen-balia-jacuzzi-sauna-bilard-CID1816-ID1cusNf.html"
+  },
+  {
+   "name": "Wigilia firmowa w górach – świąteczne spotkanie na wyłączność z wyżywieniem i pakietem wel",
+   "location": "Strzeszyce",
+   "bedrooms": 8,
+   "url": "https://www.olx.pl/d/oferta/wigilia-firmowa-w-gorach-swiateczne-spotkanie-na-wylacznosc-z-wyzywieniem-i-pakietem-wellness-CID1816-ID1cAn19.html"
+  },
+  {
+   "name": "Szczyrk cały dom dla max  23 os. na iventy spotkania rodzinne itp",
+   "location": "Szczyrk",
+   "bedrooms": 8,
+   "url": "https://www.olx.pl/d/oferta/szczyrk-caly-dom-dla-max-23-os-na-iventy-spotkania-rodzinne-itp-CID1816-ID1cm2S8.html"
+  },
+  {
+   "name": "SYLWESTER 2026/2027 – Lawendowy Domek, Przeciszów koło Zatora | komfortowe domki dla 6 i 7",
+   "location": "Przeciszów",
+   "bedrooms": 6,
+   "url": "https://www.olx.pl/d/oferta/sylwester-2026-2027-lawendowy-domek-przeciszow-kolo-zatora-komfortowe-domki-dla-6-i-7-osob-spokojna-okolica-CID1816-ID1cCtT3.html"
+  },
+  {
+   "name": "Komfortowy duży dom dla 16 osób z widokiem na góry na wyłączność Sylwester z psem 7 sypial",
+   "location": "Górki Wielkie",
+   "bedrooms": 7,
+   "url": "https://www.olx.pl/d/oferta/komfortowy-duzy-dom-dla-16-osob-z-widokiem-na-gory-na-wylacznosc-sylwester-z-psem-7-sypialni-6-lazienek-6-kuchni-beskidy-gorki-w-brenna-ustron-wisla-CID1816-ID1cK9bG.html"
+  }
+ ],
+ "olx_note": "13.10.2026 wysłaliśmy przez OLX zapytanie o dostępność i cenę za 30.12–06.01 dla 10 osób do tych domów (dodane na OLX w ostatnim miesiącu, potwierdzone 5+ sypialni). Odpowiedzi przychodzą na czat OLX."
+}

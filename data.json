@@ -62,7 +62,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -94,7 +94,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -126,7 +126,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -167,7 +167,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -203,7 +203,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -235,7 +235,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -272,7 +272,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -304,7 +304,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -350,7 +350,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "bad",
@@ -387,7 +387,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -419,7 +419,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -456,7 +456,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -488,7 +488,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -529,7 +529,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -570,7 +570,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -602,7 +602,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -634,7 +634,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -666,7 +666,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -698,7 +698,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -734,7 +734,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -766,27 +766,32 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
-   "id": "H022",
-   "name": "Bajkowa Chata - Domek Nr 1 (Zakopane, TPN)",
-   "location": "Zakopane",
+   "id": "H158",
+   "name": "Bajkowa Chata Folk. Chalet No 1 z balią z jacuzzi.",
+   "location": "Murzasichle",
    "country": "PL",
    "km": 6.0,
    "bedrooms": 6,
    "guests": 15,
-   "status": "wolne",
+   "status": "SPRZECZNE",
    "price": {
-    "main": 11550,
-    "main_src": "noclegowo.pl",
-    "reliable": false,
+    "main": 37456,
+    "main_src": "airbnb.pl",
+    "reliable": true,
     "all": [
      {
       "src": "noclegowo.pl",
       "pln": 11550,
       "reliable": false
+     },
+     {
+      "src": "airbnb.pl",
+      "pln": 37456,
+      "reliable": true
      }
     ]
    },
@@ -794,18 +799,42 @@
     {
      "label": "Noclegowo",
      "url": "https://www.noclegowo.pl/zakopane/24465-bajkowa-chata-domek-nr-1-2/?dateFrom=2026-12-30&dateTo=2027-01-06&nbAdults=10"
+    },
+    {
+     "label": "bajkowachata.pl",
+     "url": "https://bajkowachata.pl/rezerwacja"
+    },
+    {
+     "label": "Airbnb",
+     "url": "https://www.airbnb.pl/rooms/629703?check_in=2026-12-30&check_out=2027-01-06&adults=10"
+    },
+    {
+     "label": "ZakopaneDomki",
+     "url": "https://zakopanedomki.com/bajkowa-chata.html"
     }
    ],
    "phones": [
-    "+48 515 616 260"
+    "+48 515 616 260",
+    "+48 500 570 366"
    ],
    "website": "http://bajkowachata.pl",
-   "email": "rezerwacje@bajkowachata.pl",
+   "emails": [
+    "rezerwacje@bajkowachata.pl",
+    "info@bajkowachata.pl"
+   ],
    "flags": [
+    {
+     "level": "bad",
+     "text": "Sprzeczne źródła – wyszukiwarka właściciela (Hotres) nie pokazała domu Folk w terminie, Airbnb pokazuje wolne."
+    },
     {
      "level": "warn",
      "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
     }
+   ],
+   "merged_from": [
+    "H022",
+    "H158"
    ]
   },
   {
@@ -837,7 +866,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -869,7 +898,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -908,7 +937,9 @@
     "+48 505 305 924"
    ],
    "website": null,
-   "email": "mrtokarska@gmail.com",
+   "emails": [
+    "mrtokarska@gmail.com"
+   ],
    "flags": []
   },
   {
@@ -953,7 +984,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -985,7 +1016,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -1026,7 +1057,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -1058,7 +1089,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -1095,7 +1126,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -1127,7 +1158,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -1159,7 +1190,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -1191,7 +1222,9 @@
    ],
    "phones": [],
    "website": null,
-   "email": "udanypobyt@gmail.com",
+   "emails": [
+    "udanypobyt@gmail.com"
+   ],
    "flags": []
   },
   {
@@ -1223,7 +1256,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -1255,7 +1288,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -1270,7 +1303,7 @@
    "country": "PL",
    "km": 27.0,
    "bedrooms": 5,
-   "guests": 12,
+   "guests": 14,
    "status": "wolne",
    "price": {
     "main": 70000,
@@ -1303,8 +1336,12 @@
     "+48 510 634 858"
    ],
    "website": null,
-   "email": null,
-   "flags": []
+   "emails": [],
+   "flags": [],
+   "merged_from": [
+    "H036",
+    "H050"
+   ]
   },
   {
    "id": "H037",
@@ -1335,7 +1372,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -1372,7 +1409,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -1418,7 +1455,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -1450,7 +1487,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -1493,7 +1530,7 @@
     "+48 788 884 203"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -1525,7 +1562,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -1557,7 +1594,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -1600,7 +1637,9 @@
     "+48 696 073 064"
    ],
    "website": "https://otulinapark.pl/",
-   "email": "otulinapark@gmail.com",
+   "emails": [
+    "otulinapark@gmail.com"
+   ],
    "flags": []
   },
   {
@@ -1634,7 +1673,9 @@
     "+48 696 073 064"
    ],
    "website": "https://otulinapark.pl/",
-   "email": "otulinapark@gmail.com",
+   "emails": [
+    "otulinapark@gmail.com"
+   ],
    "flags": []
   },
   {
@@ -1666,7 +1707,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -1698,7 +1739,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -1735,7 +1776,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "bad",
@@ -1772,7 +1813,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -1783,40 +1824,6 @@
      "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
     }
    ]
-  },
-  {
-   "id": "H050",
-   "name": "Villa Falsztyn Holiday Home",
-   "location": "Falsztyn (gm. Nowy Targ/Niedzica)",
-   "country": "PL",
-   "km": 45.0,
-   "bedrooms": 5,
-   "guests": 14,
-   "status": "wolne",
-   "price": {
-    "main": 70000,
-    "main_src": "nocowanie.pl",
-    "reliable": true,
-    "all": [
-     {
-      "src": "nocowanie.pl",
-      "pln": 70000,
-      "reliable": true
-     }
-    ]
-   },
-   "links": [
-    {
-     "label": "Nocowanie",
-     "url": "https://www.nocowanie.pl/rezerwuj/1547169-villa-falsztyn-holiday-home-falsztyn-niedzica/?adultsCount=10&childrenCount=0&guestCount=2&checkInDate=2026-12-30&checkOutDate=2027-01-06&flexDates=0"
-    }
-   ],
-   "phones": [
-    "+48 510 634 858"
-   ],
-   "website": null,
-   "email": null,
-   "flags": []
   },
   {
    "id": "H051",
@@ -1858,7 +1865,7 @@
     "+48 730 826 721"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -1899,7 +1906,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -1931,7 +1938,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -1972,7 +1979,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2006,7 +2013,9 @@
     "+48 788 026 669"
    ],
    "website": null,
-   "email": "zarabieresidence@gmail.com",
+   "emails": [
+    "zarabieresidence@gmail.com"
+   ],
    "flags": []
   },
   {
@@ -2047,7 +2056,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2088,7 +2097,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -2129,7 +2138,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2161,7 +2170,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2193,7 +2202,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2219,7 +2228,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2251,7 +2260,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -2288,7 +2297,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2322,7 +2331,9 @@
     "+48 730 340 412"
    ],
    "website": null,
-   "email": "swierkowa19@gmail.com",
+   "emails": [
+    "swierkowa19@gmail.com"
+   ],
    "flags": []
   },
   {
@@ -2365,7 +2376,9 @@
     "+48 791 111 390"
    ],
    "website": null,
-   "email": "agnieszka_rokosa@wp.pl",
+   "emails": [
+    "agnieszka_rokosa@wp.pl"
+   ],
    "flags": []
   },
   {
@@ -2400,7 +2413,9 @@
     "+48 579 777 184"
    ],
    "website": "https://dreamapart.pl",
-   "email": "info@dreamapart.pl",
+   "emails": [
+    "info@dreamapart.pl"
+   ],
    "flags": [
     {
      "level": "warn",
@@ -2439,7 +2454,9 @@
     "+48 698 198 135"
    ],
    "website": null,
-   "email": "chataodskocznia@gmail.com",
+   "emails": [
+    "chataodskocznia@gmail.com"
+   ],
    "flags": []
   },
   {
@@ -2471,7 +2488,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -2519,7 +2536,9 @@
     "+48 608 028 215"
    ],
    "website": null,
-   "email": "biesiada.korbielow@gmail.com",
+   "emails": [
+    "biesiada.korbielow@gmail.com"
+   ],
    "flags": []
   },
   {
@@ -2553,7 +2572,9 @@
     "+48 791 792 658"
    ],
    "website": null,
-   "email": "kanah84@tlen.pl",
+   "emails": [
+    "kanah84@tlen.pl"
+   ],
    "flags": []
   },
   {
@@ -2589,7 +2610,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2630,7 +2651,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2664,7 +2685,9 @@
     "+48 509 337 091"
    ],
    "website": null,
-   "email": "brenna@kgg.pl",
+   "emails": [
+    "brenna@kgg.pl"
+   ],
    "flags": []
   },
   {
@@ -2698,7 +2721,9 @@
     "+48 508 900 072"
    ],
    "website": null,
-   "email": "reservation@barnilka.com",
+   "emails": [
+    "reservation@barnilka.com"
+   ],
    "flags": []
   },
   {
@@ -2730,7 +2755,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2762,7 +2787,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2794,7 +2819,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2826,7 +2851,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2858,7 +2883,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2887,7 +2912,7 @@
     "+421 904 498 343"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2913,7 +2938,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2939,7 +2964,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2965,7 +2990,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -2997,7 +3022,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3023,7 +3048,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3055,7 +3080,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3081,7 +3106,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3107,7 +3132,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3133,7 +3158,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3159,7 +3184,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3191,7 +3216,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3217,7 +3242,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3243,7 +3268,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3275,7 +3300,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3301,7 +3326,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3327,7 +3352,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3363,7 +3388,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3389,7 +3414,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3415,7 +3440,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3441,7 +3466,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3473,7 +3498,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3505,7 +3530,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3537,7 +3562,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3563,7 +3588,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3589,7 +3614,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3621,7 +3646,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3657,7 +3682,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3683,7 +3708,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3709,7 +3734,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3735,7 +3760,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3761,7 +3786,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3787,7 +3812,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3819,7 +3844,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3845,7 +3870,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3877,7 +3902,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3903,7 +3928,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3929,7 +3954,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3955,7 +3980,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -3981,7 +4006,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4007,7 +4032,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4033,7 +4058,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4059,7 +4084,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4085,7 +4110,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4117,7 +4142,7 @@
     "+48 501 623 550"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4145,7 +4170,7 @@
     "+48 502 610 248"
    ],
    "website": "http://www.goralskie-domki.pl",
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4171,7 +4196,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4197,7 +4222,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4223,7 +4248,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4249,7 +4274,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4277,7 +4302,7 @@
     "+48 600 188 770"
    ],
    "website": "http://www.chatawalczakow.pl",
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4305,7 +4330,7 @@
     "+48 502 714 691"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4333,7 +4358,7 @@
     "+48 502 714 691"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4359,7 +4384,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4385,7 +4410,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4417,7 +4442,7 @@
     "+48 604 448 770"
    ],
    "website": "http://www.ciszanaddolina.pl",
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4445,7 +4470,7 @@
     "+48 883 653 382"
    ],
    "website": "http://www.domek-los.pl",
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4473,7 +4498,7 @@
     "+48 606 436 626"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4501,7 +4526,7 @@
     "+48 668 550 910"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4529,36 +4554,69 @@
     "+48 502 714 691"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
-   "id": "H140",
-   "name": "Chalupki pod Giewontem (domki 5-sypialniowe)",
+   "id": "H159",
+   "name": "Chałupki pod Giewontem - Domek nr 4/5/6 (Murzasichle)",
    "location": "Murzasichle",
    "country": "PL",
-   "km": 9.0,
+   "km": 7.0,
    "bedrooms": 5,
    "guests": 14,
-   "status": "nieznana",
+   "status": "SPRZECZNE",
    "price": {
-    "main": null,
-    "main_src": null,
+    "main": 17400,
+    "main_src": "noclegowo.pl",
     "reliable": false,
-    "all": []
+    "all": [
+     {
+      "src": "noclegowo.pl",
+      "pln": 17400,
+      "reliable": false
+     }
+    ]
    },
    "links": [
     {
      "label": "ZakopaneDomki",
      "url": "https://zakopanedomki.com/chalupki-pod-giewontem.html"
+    },
+    {
+     "label": "chalupkipodgiewontem.pl",
+     "url": "https://www.chalupkipodgiewontem.pl/rezerwacja"
+    },
+    {
+     "label": "Noclegowo",
+     "url": "https://www.noclegowo.pl/murzasichle/70132-chalupki-pod-giewontem-goralskie-domki-z-pieknym-widokiem-na-tatry/?dateFrom=2026-12-30&dateTo=2027-01-06&nbAdults=10"
+    },
+    {
+     "label": "Nocowanie",
+     "url": "https://www.nocowanie.pl/noclegi/zakopane/domki/68872/"
     }
    ],
    "phones": [
     "+48 660 417 817"
    ],
    "website": "https://www.chalupkipodgiewontem.pl",
-   "email": null,
-   "flags": []
+   "emails": [
+    "chalupkipodgiewontem@wp.pl"
+   ],
+   "flags": [
+    {
+     "level": "bad",
+     "text": "Sprzeczne źródła – kalendarz właściciela (Hotres): domki 4–6 zajęte 29.12–03.01, noclegowo pokazuje wolne."
+    },
+    {
+     "level": "warn",
+     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
+    }
+   ],
+   "merged_from": [
+    "H140",
+    "H159"
+   ]
   },
   {
    "id": "H141",
@@ -4585,7 +4643,7 @@
     "+48 602 749 292"
    ],
    "website": "https://www.goralskiprzystanek.com",
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4613,7 +4671,7 @@
     "+48 509 945 509"
    ],
    "website": "http://www.arthouseresidence.pl",
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4641,7 +4699,7 @@
     "+48 737 461 137"
    ],
    "website": "http://www.willamisiowachata.pl",
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4670,7 +4728,7 @@
     "+48 500 413 503"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4698,7 +4756,7 @@
     "+48 697 727 076"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4724,7 +4782,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4752,7 +4810,7 @@
     "+48 573 800 980"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4780,7 +4838,7 @@
     "+48 600 261 025"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4809,7 +4867,7 @@
     "+48 511 320 888"
    ],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4835,7 +4893,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4861,7 +4919,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4887,7 +4945,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4913,7 +4971,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4939,7 +4997,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4965,7 +5023,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -4991,7 +5049,7 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
   },
   {
@@ -5017,107 +5075,8 @@
    ],
    "phones": [],
    "website": null,
-   "email": null,
+   "emails": [],
    "flags": []
-  },
-  {
-   "id": "H158",
-   "name": "Bajkowa Chata Folk. Chalet No 1 z balią z jacuzzi.",
-   "location": "Murzasichle",
-   "country": "PL",
-   "km": 6.0,
-   "bedrooms": 6,
-   "guests": 15,
-   "status": "SPRZECZNE",
-   "price": {
-    "main": 37456,
-    "main_src": "airbnb.pl",
-    "reliable": true,
-    "all": [
-     {
-      "src": "airbnb.pl",
-      "pln": 37456,
-      "reliable": true
-     }
-    ]
-   },
-   "links": [
-    {
-     "label": "bajkowachata.pl",
-     "url": "https://bajkowachata.pl/rezerwacja"
-    },
-    {
-     "label": "Airbnb",
-     "url": "https://www.airbnb.pl/rooms/629703?check_in=2026-12-30&check_out=2027-01-06&adults=10"
-    },
-    {
-     "label": "ZakopaneDomki",
-     "url": "https://zakopanedomki.com/bajkowa-chata.html"
-    }
-   ],
-   "phones": [
-    "+48 515 616 260",
-    "+48 500 570 366"
-   ],
-   "website": "https://bajkowachata.pl",
-   "email": "info@bajkowachata.pl, rezerwacje@bajkowachata.pl",
-   "flags": [
-    {
-     "level": "bad",
-     "text": "Sprzeczne źródła – wyszukiwarka właściciela (Hotres) nie pokazała domu Folk w terminie, Airbnb pokazuje wolne."
-    }
-   ]
-  },
-  {
-   "id": "H159",
-   "name": "Chałupki pod Giewontem - Domek nr 4/5/6 (Murzasichle)",
-   "location": "Murzasichle",
-   "country": "PL",
-   "km": 7.0,
-   "bedrooms": 5,
-   "guests": 14,
-   "status": "SPRZECZNE",
-   "price": {
-    "main": 17400,
-    "main_src": "noclegowo.pl",
-    "reliable": false,
-    "all": [
-     {
-      "src": "noclegowo.pl",
-      "pln": 17400,
-      "reliable": false
-     }
-    ]
-   },
-   "links": [
-    {
-     "label": "chalupkipodgiewontem.pl",
-     "url": "https://www.chalupkipodgiewontem.pl/rezerwacja"
-    },
-    {
-     "label": "Noclegowo",
-     "url": "https://www.noclegowo.pl/murzasichle/70132-chalupki-pod-giewontem-goralskie-domki-z-pieknym-widokiem-na-tatry/?dateFrom=2026-12-30&dateTo=2027-01-06&nbAdults=10"
-    },
-    {
-     "label": "Nocowanie",
-     "url": "https://www.nocowanie.pl/noclegi/zakopane/domki/68872/"
-    }
-   ],
-   "phones": [
-    "+48 660 417 817"
-   ],
-   "website": "https://www.chalupkipodgiewontem.pl",
-   "email": "chalupkipodgiewontem@wp.pl",
-   "flags": [
-    {
-     "level": "bad",
-     "text": "Sprzeczne źródła – kalendarz właściciela (Hotres): domki 4–6 zajęte 29.12–03.01, noclegowo pokazuje wolne."
-    },
-    {
-     "level": "warn",
-     "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
-    }
-   ]
   },
   {
    "id": "H160",
@@ -5163,7 +5122,9 @@
     "+48 508 755 595"
    ],
    "website": null,
-   "email": "infotybet@gmail.com",
+   "emails": [
+    "infotybet@gmail.com"
+   ],
    "flags": [
     {
      "level": "bad",
@@ -5210,7 +5171,9 @@
     "+48 697 736 784"
    ],
    "website": "https://villagorsky.pl",
-   "email": "villa@gorsky.pl",
+   "emails": [
+    "villa@gorsky.pl"
+   ],
    "flags": [
     {
      "level": "bad",

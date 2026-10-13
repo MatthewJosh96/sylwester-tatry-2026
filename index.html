@@ -114,7 +114,7 @@
     </label>
     <label class="f">Sortuj
       <select id="sort">
-        <option value="price">cena rosnąco</option>
+        <option value="price">cena rosnąco (najpierw pewne ceny)</option>
         <option value="km">odległość</option>
         <option value="bed">sypialnie malejąco</option>
       </select>
@@ -190,7 +190,11 @@
     });
     const w = safeUrl(h.website);
     if (w) { const a = el('a', null, 'strona www'); a.href = w; a.target = '_blank'; a.rel = 'noopener noreferrer'; ct.append(a); }
-    if (h.email && /^[^\s@<>]+@[^\s@<>]+\.[a-z]{2,}$/i.test(h.email)) { const a = el('a', null, '✉ ' + h.email); a.href = 'mailto:' + h.email; ct.append(a); }
+    // tylko pojedynczy, prosty adres: bez ?, &, % itp., żeby dane z portali nie mogły dopisać odbiorców do mailto:
+    (h.emails || []).forEach(m => {
+      if (!/^[A-Za-z0-9._+-]+@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}$/.test(m)) return;
+      const a = el('a', null, '✉ ' + m); a.href = 'mailto:' + encodeURIComponent(m).replace('%40', '@'); ct.append(a);
+    });
     if (ct.childElementCount) c.append(ct); else c.append(el('div', 'nocontact', 'Kontakt przez portal (brak publicznego telefonu)'));
 
     const ln = el('div', 'links');
@@ -234,7 +238,10 @@
 
   function init(d) {
     DATA = d;
-    if (window.matchMedia('(max-width: 640px)').matches) $('fbox').open = false;
+    const mq = window.matchMedia('(max-width: 640px)');
+    if (mq.matches) $('fbox').open = false;
+    // na szerokim ekranie przycisk zwijania jest ukryty, więc filtry muszą być wtedy rozwinięte
+    mq.addEventListener('change', e => { if (!e.matches) $('fbox').open = true; });
     $('gen').textContent = d.generated;
     const H = d.houses, cnt = (f) => H.filter(f).length;
     const facts = [

@@ -1863,19 +1863,11 @@
     {
      "label": "Slowhop",
      "url": "https://slowhop.com/pl/miejsca/1930-chatta-huba.html"
-    },
-    {
-     "label": "Noclegi.pl",
-     "url": "https://noclegi.pl/domy-do-wynajecia-huba-czorsztyn?adults=10&checkin=2026-12-30&checkout=2027-01-06&children=0&rooms=1"
     }
    ],
-   "phones": [
-    "+48 666 969 396"
-   ],
+   "phones": [],
    "website": null,
-   "emails": [
-    "hsczubek@gmail.com"
-   ],
+   "emails": [],
    "flags": [
     {
      "level": "warn",
@@ -1885,11 +1877,6 @@
      "level": "warn",
      "text": "Cena tylko z agregatora/noclegowo – orientacyjna."
     }
-   ],
-   "rating": "9,8/10 · 26 opinii",
-   "highlights": [
-    "kominek",
-    "widok na Jezioro Czorsztyńskie"
    ]
   },
   {
@@ -3718,13 +3705,13 @@
    "guests": 10,
    "status": "wolne",
    "price": {
-    "main": 16583,
+    "main": 18284,
     "main_src": "booking.com",
     "reliable": true,
     "all": [
      {
       "src": "booking.com",
-      "pln": 16583,
+      "pln": 18284,
       "reliable": true
      }
     ]
@@ -6442,7 +6429,7 @@
    "phones": [
     "+48 880 721 681"
    ],
-   "website": "https://willahankawitow.pl",
+   "website": null,
    "emails": [
     "kontakt@willahankawitow.pl"
    ],
@@ -6684,6 +6671,47 @@
   },
   {
    "id": "H196",
+   "name": "Domy do wynajęcia Huba (Hubka 13)",
+   "location": "Huba",
+   "country": "PL",
+   "km": 28.0,
+   "bedrooms": 5,
+   "guests": 15,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Noclegi.pl",
+     "url": "https://noclegi.pl/domy-do-wynajecia-huba-czorsztyn?adults=10&checkin=2026-12-30&checkout=2027-01-06&children=0&rooms=1"
+    }
+   ],
+   "phones": [
+    "+48 666 969 396"
+   ],
+   "website": null,
+   "emails": [
+    "hsczubek@gmail.com"
+   ],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "To osobny obiekt, nie Chatta Huba z tej listy (adres: Hubka 13)."
+    }
+   ],
+   "round": 2,
+   "rating": "9,8/10 · 26 opinii",
+   "highlights": [
+    "kominek",
+    "widok na Jezioro Czorsztyńskie"
+   ]
+  },
+  {
+   "id": "H197",
    "name": "Chalupa Roman Ždiar",
    "location": "Ždiar",
    "country": "SK",
@@ -6717,37 +6745,6 @@
     "widok na Belianske Tatry",
     "skibus do wyciągów",
     "termy Vyšné Ružbachy"
-   ]
-  },
-  {
-   "id": "H197",
-   "name": "Chalet Nemešany Ždiar",
-   "location": "Ždiar",
-   "country": "SK",
-   "km": 24.0,
-   "bedrooms": 5,
-   "guests": 14,
-   "status": "nieznana",
-   "price": {
-    "main": null,
-    "main_src": null,
-    "reliable": false,
-    "all": []
-   },
-   "links": [
-    {
-     "label": "Travelking",
-     "url": "https://travelking.sk/objekt/chalet-nemesany-zdiar"
-    }
-   ],
-   "phones": [],
-   "website": null,
-   "emails": [],
-   "flags": [],
-   "round": 2,
-   "highlights": [
-    "kominek",
-    "5 łazienek"
    ]
   },
   {
@@ -6795,73 +6792,6 @@
   },
   {
    "id": "H199",
-   "name": "Oravienka Biely Potok",
-   "location": "Oravský Biely Potok",
-   "country": "SK",
-   "km": 29.0,
-   "bedrooms": 6,
-   "guests": 16,
-   "status": "nieznana",
-   "price": {
-    "main": null,
-    "main_src": null,
-    "reliable": false,
-    "all": []
-   },
-   "links": [
-    {
-     "label": "Travelking",
-     "url": "https://travelking.sk/objekt/oravienka-biely-potok"
-    }
-   ],
-   "phones": [],
-   "website": null,
-   "emails": [],
-   "flags": [
-    {
-     "level": "warn",
-     "text": "Cennik: za noc; Silvestr 26.12–3.1: CENA DOHODOU (min. 4 os., 3 noce)"
-    }
-   ],
-   "round": 2,
-   "highlights": [
-    "blisko Zuberec/Roháče",
-    "termy Oravice"
-   ]
-  },
-  {
-   "id": "H200",
-   "name": "Chata pri potoku Habovka (Rekreačný dom Jandura)",
-   "location": "Zuberec / Habovka",
-   "country": "SK",
-   "km": 25.0,
-   "bedrooms": 6,
-   "guests": 12,
-   "status": "nieznana",
-   "price": {
-    "main": null,
-    "main_src": null,
-    "reliable": false,
-    "all": []
-   },
-   "links": [
-    {
-     "label": "Travelking",
-     "url": "https://travelking.sk/objekt/rekreacny-dom-jandura-zuberec"
-    }
-   ],
-   "phones": [],
-   "website": null,
-   "emails": [],
-   "flags": [],
-   "round": 2,
-   "highlights": [
-    "kominek",
-    "termy Meander Park Oravice"
-   ]
-  },
-  {
-   "id": "H201",
    "name": "Chata Velké Borové",
    "location": "Veľké Borové",
    "country": "SK",
@@ -6892,7 +6822,7 @@
    ]
   },
   {
-   "id": "H202",
+   "id": "H200",
    "name": "GABRIELA",
    "location": "Stará Lesná",
    "country": "SK",
@@ -6928,92 +6858,7 @@
    ]
   },
   {
-   "id": "H203",
-   "name": "AC La Chata Dolný Smokovec",
-   "location": "Dolný Smokovec",
-   "country": "SK",
-   "km": 29.0,
-   "bedrooms": 7,
-   "guests": 18,
-   "status": "nieznana",
-   "price": {
-    "main": 29378,
-    "main_src": "travelking.sk",
-    "reliable": false,
-    "all": [
-     {
-      "src": "travelking.sk",
-      "pln": 29378,
-      "reliable": false
-     }
-    ]
-   },
-   "links": [
-    {
-     "label": "Travelking",
-     "url": "https://travelking.sk/objekt/ac-la-chata-dolny-smokovec"
-    }
-   ],
-   "phones": [],
-   "website": null,
-   "emails": [],
-   "flags": [
-    {
-     "level": "warn",
-     "text": "Cena z cennika travelking.sk – orientacyjna, stawkę sylwestrową potwierdź."
-    }
-   ],
-   "round": 2,
-   "highlights": [
-    "sauna",
-    "wirówka (vířivka)",
-    "kominek"
-   ]
-  },
-  {
-   "id": "H204",
-   "name": "Zelený Dom Vysoké Tatry",
-   "location": "Stará Lesná",
-   "country": "SK",
-   "km": 32.0,
-   "bedrooms": 6,
-   "guests": 18,
-   "status": "nieznana",
-   "price": {
-    "main": 9314,
-    "main_src": "travelking.sk",
-    "reliable": false,
-    "all": [
-     {
-      "src": "travelking.sk",
-      "pln": 9314,
-      "reliable": false
-     }
-    ]
-   },
-   "links": [
-    {
-     "label": "Travelking",
-     "url": "https://travelking.sk/objekt/zeleny-dom-vysoke-tatry"
-    }
-   ],
-   "phones": [],
-   "website": null,
-   "emails": [],
-   "flags": [
-    {
-     "level": "warn",
-     "text": "Cena z cennika travelking.sk – orientacyjna, stawkę sylwestrową potwierdź."
-    }
-   ],
-   "round": 2,
-   "highlights": [
-    "ogród",
-    "blisko Tatr"
-   ]
-  },
-  {
-   "id": "H205",
+   "id": "H201",
    "name": "Chata Sofia",
    "location": "Oravice",
    "country": "SK",
@@ -7045,7 +6890,7 @@
    ]
   },
   {
-   "id": "H206",
+   "id": "H202",
    "name": "Chata Ola Oravice",
    "location": "Oravice",
    "country": "SK",
@@ -7087,7 +6932,7 @@
    ]
   },
   {
-   "id": "H207",
+   "id": "H203",
    "name": "Ubytovanie Tatry MKS Štrba",
    "location": "Štrba",
    "country": "SK",
@@ -7117,7 +6962,7 @@
    ]
   },
   {
-   "id": "H208",
+   "id": "H204",
    "name": "Chata Ľubica 128",
    "location": "Tvrdošín",
    "country": "SK",
@@ -7159,7 +7004,7 @@
    ]
   },
   {
-   "id": "H209",
+   "id": "H205",
    "name": "Chata Soemi Oravice",
    "location": "Oravice",
    "country": "SK",
@@ -7199,7 +7044,7 @@
    ]
   },
   {
-   "id": "H210",
+   "id": "H206",
    "name": "Villa Cassandra",
    "location": "Veľká Lomnica",
    "country": "SK",
@@ -7242,49 +7087,7 @@
    ]
   },
   {
-   "id": "H211",
-   "name": "Villa Happy",
-   "location": "Veľká Lomnica",
-   "country": "SK",
-   "km": 36.0,
-   "bedrooms": 8,
-   "guests": 31,
-   "status": "nieznana",
-   "price": {
-    "main": 17548,
-    "main_src": "travelking.sk",
-    "reliable": false,
-    "all": [
-     {
-      "src": "travelking.sk",
-      "pln": 17548,
-      "reliable": false
-     }
-    ]
-   },
-   "links": [
-    {
-     "label": "Travelking",
-     "url": "https://travelking.sk/objekt/villa-happy-velka-lomnica"
-    }
-   ],
-   "phones": [],
-   "website": null,
-   "emails": [],
-   "flags": [
-    {
-     "level": "warn",
-     "text": "Cena z cennika travelking.sk – orientacyjna, stawkę sylwestrową potwierdź."
-    }
-   ],
-   "round": 2,
-   "highlights": [
-    "widok na Tatry",
-    "termy w pobliżu"
-   ]
-  },
-  {
-   "id": "H212",
+   "id": "H207",
    "name": "Chaty Tatra – Menší chata",
    "location": "Tatranská Štrba",
    "country": "SK",
@@ -7326,7 +7129,7 @@
    ]
   },
   {
-   "id": "H213",
+   "id": "H208",
    "name": "Chata Lieskovec",
    "location": "Tatranská Štrba",
    "country": "SK",

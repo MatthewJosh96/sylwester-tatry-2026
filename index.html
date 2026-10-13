@@ -179,24 +179,38 @@
 
   // Notatki i znaczniki „zadzwoniono” żyją tylko w localStorage tej przeglądarki; strona jest statyczna i nic nie wysyła.
   const STORE_KEY = 'sylwester-tatry-2026:notatki:v1';
-  let storageOk = true;
-  let notes = {};
+  let canRead = true;
+  let notes = Object.create(null);
+  const dirty = new Set();  // domy ze zmianami, których nie udało się zapisać (pełna albo zablokowana pamięć)
+  const str = (v) => typeof v === 'string' ? v : null;
+  // magazyn może zawierać cokolwiek (ta sama domena obsługuje inne strony z github.io), więc bierzemy tylko znane pola o właściwych typach
+  function cleanStore(o) {
+    const out = Object.create(null);
+    if (!o || typeof o !== 'object' || Array.isArray(o)) return out;
+    Object.keys(o).forEach(id => {
+      const v = o[id];
+      if (!/^[A-Za-z0-9_-]{1,40}$/.test(id) || !v || typeof v !== 'object') return;
+      const e = { called: v.called === true, calledAt: str(v.calledAt), note: (str(v.note) || '').slice(0, 2000), name: str(v.name) || '', updated: str(v.updated) };
+      if (e.called || e.note.trim()) out[id] = e;
+    });
+    return out;
+  }
   function readStore() {
     let raw;
-    try { raw = localStorage.getItem(STORE_KEY); } catch { storageOk = false; return null; }
-    if (!raw) return {};
-    try { const o = JSON.parse(raw); return (o && typeof o === 'object' && !Array.isArray(o)) ? o : {}; } catch { return {}; }
+    try { raw = localStorage.getItem(STORE_KEY); } catch { canRead = false; return null; }
+    if (!raw) return Object.create(null);
+    try { return cleanStore(JSON.parse(raw)); } catch { return Object.create(null); }
   }
   function saveEntry(h, patch) {
     // świeży odczyt, żeby druga otwarta karta nie nadpisała notatek zapisanych w niej do innych domów
-    const cur = (storageOk && readStore()) || notes;
+    const cur = (canRead && readStore()) || notes;
+    if (cur !== notes) dirty.forEach(id => { if (notes[id]) cur[id] = notes[id]; else delete cur[id]; });
     const e = Object.assign({}, cur[h.id], patch, { name: h.name, updated: new Date().toISOString() });
     if (!e.called && !String(e.note || '').trim()) delete cur[h.id]; else cur[h.id] = e;
     notes = cur;
-    if (!storageOk) return false;
-    try { localStorage.setItem(STORE_KEY, JSON.stringify(cur)); return true; } catch { return false; }
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(cur)); dirty.clear(); return true; } catch { dirty.add(h.id); return false; }
   }
-  const fmtTime = (iso) => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleString('pl-PL', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }); };
+  const fmtTime = (iso) => { if (typeof iso !== 'string') return ''; const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleString('pl-PL', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }); };
   function updateCalledFact() {
     const li = $('calledFact'); if (!li) return;
     const n = DATA.houses.filter(h => notes[h.id] && notes[h.id].called === true).length;
@@ -319,11 +333,13 @@
 
   function init(d) {
     DATA = d;
-    try { localStorage.setItem(STORE_KEY + ':probe', '1'); localStorage.removeItem(STORE_KEY + ':probe'); } catch { storageOk = false; }
-    notes = (storageOk && readStore()) || {};
+    let canWrite = true;
+    try { localStorage.setItem(STORE_KEY + ':probe', '1'); localStorage.removeItem(STORE_KEY + ':probe'); } catch { canWrite = false; }
+    // odczyt niezależnie od zapisu: przy pełnej pamięci wcześniejsze notatki nadal mają być widoczne
+    notes = readStore() || Object.create(null);
     const hint = $('storehint');
-    if (storageOk) hint.textContent = 'Znaczniki „Zadzwoniono” i notatki zapisują się tylko w tej przeglądarce na tym urządzeniu. Nikt inny ich nie widzi.';
-    else { hint.textContent = 'Ta przeglądarka blokuje zapis (np. tryb prywatny): notatki i znaczniki znikną po zamknięciu strony.'; hint.classList.add('bad'); }
+    if (canWrite) hint.textContent = 'Znaczniki „Zadzwoniono” i notatki zapisują się tylko w tej przeglądarce na tym urządzeniu. Nikt inny ich nie widzi.';
+    else { hint.textContent = 'Ta przeglądarka nie pozwala teraz zapisywać (np. tryb prywatny albo pełna pamięć): nowe notatki i znaczniki znikną po zamknięciu strony.'; hint.classList.add('bad'); }
     const mq = window.matchMedia('(max-width: 640px)');
     if (mq.matches) $('fbox').open = false;
     // na szerokim ekranie przycisk zwijania jest ukryty, więc filtry muszą być wtedy rozwinięte

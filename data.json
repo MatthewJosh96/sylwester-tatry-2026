@@ -6792,6 +6792,42 @@
   },
   {
    "id": "H199",
+   "name": "Chata pri potoku Habovka (Rekreačný dom Jandura)",
+   "location": "Zuberec / Habovka",
+   "country": "SK",
+   "km": 25.0,
+   "bedrooms": 6,
+   "guests": 12,
+   "status": "nieznana",
+   "price": {
+    "main": null,
+    "main_src": null,
+    "reliable": false,
+    "all": []
+   },
+   "links": [
+    {
+     "label": "Travelking",
+     "url": "https://travelking.sk/objekt/rekreacny-dom-jandura-zuberec"
+    }
+   ],
+   "phones": [],
+   "website": null,
+   "emails": [],
+   "flags": [
+    {
+     "level": "warn",
+     "text": "megaubytovanie.sk pokazuje „Chatę pri potoku” w Habovce jako zajętą w terminie – może to ten sam dom (inny adres), sprawdź."
+    }
+   ],
+   "round": 2,
+   "highlights": [
+    "kominek",
+    "termy Meander Park Oravice"
+   ]
+  },
+  {
+   "id": "H200",
    "name": "Chata Velké Borové",
    "location": "Veľké Borové",
    "country": "SK",
@@ -6822,7 +6858,7 @@
    ]
   },
   {
-   "id": "H200",
+   "id": "H201",
    "name": "GABRIELA",
    "location": "Stará Lesná",
    "country": "SK",
@@ -6858,7 +6894,7 @@
    ]
   },
   {
-   "id": "H201",
+   "id": "H202",
    "name": "Chata Sofia",
    "location": "Oravice",
    "country": "SK",
@@ -6890,7 +6926,7 @@
    ]
   },
   {
-   "id": "H202",
+   "id": "H203",
    "name": "Chata Ola Oravice",
    "location": "Oravice",
    "country": "SK",
@@ -6932,7 +6968,7 @@
    ]
   },
   {
-   "id": "H203",
+   "id": "H204",
    "name": "Ubytovanie Tatry MKS Štrba",
    "location": "Štrba",
    "country": "SK",
@@ -6962,7 +6998,7 @@
    ]
   },
   {
-   "id": "H204",
+   "id": "H205",
    "name": "Chata Ľubica 128",
    "location": "Tvrdošín",
    "country": "SK",
@@ -7004,7 +7040,7 @@
    ]
   },
   {
-   "id": "H205",
+   "id": "H206",
    "name": "Chata Soemi Oravice",
    "location": "Oravice",
    "country": "SK",
@@ -7044,7 +7080,7 @@
    ]
   },
   {
-   "id": "H206",
+   "id": "H207",
    "name": "Villa Cassandra",
    "location": "Veľká Lomnica",
    "country": "SK",
@@ -7087,7 +7123,7 @@
    ]
   },
   {
-   "id": "H207",
+   "id": "H208",
    "name": "Chaty Tatra – Menší chata",
    "location": "Tatranská Štrba",
    "country": "SK",
@@ -7129,7 +7165,7 @@
    ]
   },
   {
-   "id": "H208",
+   "id": "H209",
    "name": "Chata Lieskovec",
    "location": "Tatranská Štrba",
    "country": "SK",
